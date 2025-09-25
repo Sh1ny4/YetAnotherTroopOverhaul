@@ -111,7 +111,7 @@
 		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="wld_great_helm_brass_winged"
-		name="Winged  Great Helmet"
+		name="Winged Great Helmet"
 		subtype="head_armor"
 		mesh="winged_great_helm_brass"
 		weight="4.8"
