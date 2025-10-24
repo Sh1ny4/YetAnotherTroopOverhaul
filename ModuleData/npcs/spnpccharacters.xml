@@ -5316,6 +5316,17 @@
                         <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
                         <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
                     </EquipmentRoster>
+                    <EquipmentRoster>
+                        <equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
+                        <equipment slot="Item1" id="Item.northern_horsemans_shield"/>
+                        <equipment slot="Item2" id="Item.wipo_flail"/>
+                        <equipment slot="Head" id="Item.nasal_helmet_over_mail"/>
+                        <equipment slot="Body" id="Item.mail_shirt"/>
+                        <equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+                        <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                        <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
+                        <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+                    </EquipmentRoster>
                     <EquipmentRoster civilian="true">
                         <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
                         <equipment slot="Item2" id="Item.throwing_stone"/>
@@ -5352,6 +5363,7 @@
                         <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
                         <equipment slot="Item1" id="Item.northern_horsemans_shield"/>
                         <equipment slot="Item2" id="Item.western_2hsword_t3"/>
+                        <equipment slot="Item3" id="Item.wipo_flail" />
                         <equipment slot="Head" id="Item.segmented_skullcap_over_mail_coif"/>
                         <equipment slot="Body" id="Item.wld_tabbard_over_mail_3"/>
                         <equipment slot="Gloves" id="Item.mail_mitten"/>
@@ -5394,6 +5406,7 @@
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
                         <equipment slot="Item1" id="Item.sentinel_2hsword" />
+                        <equipment slot="Item1" id="Item.wipo_flail" />
                         <equipment slot="Item3" id="Item.wipo_s_fks" />
                         <equipment slot="Head" id="Item.wld_helm_faceplate_brass" />
                         <equipment slot="Cape" id="Item.wld_chain_shoulders" />
@@ -5435,6 +5448,7 @@
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.wipo_lance_cb" />
                     <equipment slot="Item1" id="Item.sentinel_2hsword" />
+                        <equipment slot="Item1" id="Item.wipo_flail" />
                     <equipment slot="Item3" id="Item.wipo_s_fks" />
                     <equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
                     <equipment slot="Cape" id="Item.wld_chain_shoulders" />
