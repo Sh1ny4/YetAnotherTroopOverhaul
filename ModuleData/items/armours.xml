@@ -13,6 +13,7 @@
         <Flags/>
     </Item>
 
+    <!-- swadian -->
 	<Item id="wld_helm_faceplate_blackend_brass"
 		name="Western Ornate Full Plate Helmet"
 		subtype="head_armor"
@@ -174,7 +175,7 @@
         </ItemComponent>
         <Flags UseTeamColor="false"/>
     </Item>
-    
+
     <Item id="wld_plate_shoulders"
         name="Shoulder Plates"
         mesh="swadian_shoulders"
@@ -499,6 +500,7 @@
         <Flags/>
     </Item>
 
+    <!-- vaegir -->
     <Item id="wld_vaegir_helm_1"
         name="Vaegir Helmet"
         subtype="head_armor"
@@ -627,6 +629,7 @@
         </ItemComponent>
         <Flags UseTeamColor="false"/>
     </Item>
+
     <Item id="wld_vaegir_coat_of_plate_1"
         name="Vaegir coat of plates"
         mesh="Rus_armour"
