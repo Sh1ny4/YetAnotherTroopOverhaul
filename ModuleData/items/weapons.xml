@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-<!-- #region Lances -->
        <CraftedItem  id="wipo_lance_cb"
               name="{=wipo_w_bkl}Bannered Knight Lance"
               crafting_template="TwoHandedPolearm"
@@ -13,8 +12,6 @@
                      <Piece id="spear_pommel_4" Type="Pommel" scale_factor="100" />
               </Pieces>
        </CraftedItem>
-<!-- #endregion -->
-<!-- #region 2H Mace -->
        <CraftedItem  id="wipo_2h_hammer"
               name="{=wipo_w_nhm}Northern Heavy Mace"
               crafting_template="TwoHandedMace"
@@ -26,7 +23,6 @@
                      <Piece id="spear_pommel_5" Type="Pommel" scale_factor="100"/>
               </Pieces>
        </CraftedItem>
-<!-- #endregion -->
        <Item  id="wipo_siege_crossbow"
               name="{=wipo_siege_crossbow}Siege Crossbow"
               body_name="bo_cross_bow_heavy"
@@ -65,7 +61,6 @@
                      </ItemComponent>
               <Flags/>
        </Item>
-       
 	<Item  id="wipo_flail"
 		name="{=77GPT2B6}War Flail"
 		is_merchandise="false"

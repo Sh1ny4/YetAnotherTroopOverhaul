@@ -3,7 +3,6 @@
     <Item id="wld_chain_shoulders"
         name="Western chain shoulders"
         mesh="chain_shoulders"
-        culture="Culture.neutral_culture"
         weight="3.6"
         Type="Cape">
         <ItemComponent>
@@ -207,7 +206,7 @@
         name="coat of plates"
         mesh="coat_of_plates1_c"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="25.11"
         Type="BodyArmor">
         <ItemComponent>
@@ -256,7 +255,7 @@
         name="coat of plates checker pattern"
         mesh="coat_of_plates4_c"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="25.11"
         Type="BodyArmor">
         <ItemComponent>
@@ -273,7 +272,7 @@
         name="coat of plates cross pattern"
         mesh="coat_of_plates5_c"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="25.11"
         Type="BodyArmor">
         <ItemComponent>
@@ -290,7 +289,7 @@
         name="Western Plate Armor"
         mesh="swadian_plate_armor"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="29"
         Type="BodyArmor">
         <ItemComponent>
@@ -323,7 +322,7 @@
         name="Western Cuirass With Armguards"
         mesh="swadian_plate_with_armguards"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="26.5"
         Type="BodyArmor">
         <ItemComponent>
@@ -340,7 +339,7 @@
         name="Western Plate Armor With skirt"
         mesh="sa_surcoatplate"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="29"
         Type="BodyArmor">
         <ItemComponent>
@@ -357,7 +356,7 @@
         name="Mail With Tabbard"
         mesh="mail_with_tabbard1"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="29"
         Type="BodyArmor">
         <ItemComponent>
@@ -406,7 +405,7 @@
         name="Mail With Tabbard"
         mesh="mail_with_tabbard4"
         subtype="body_armor"   
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="29"
         Type="BodyArmor">
         <ItemComponent>
@@ -439,7 +438,7 @@
         name="Tabbard over Coat of plate"
         mesh="coat1"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="30"
         Type="BodyArmor">
         <ItemComponent>
@@ -456,7 +455,7 @@
         name="Tabbard over Coat of plate"
         mesh="coat2"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="30"
         Type="BodyArmor">
         <ItemComponent>
@@ -473,7 +472,7 @@
         name="Tabbard over Coat of plate"
         mesh="coat3"
         subtype="body_armor"
-        culture="Culture.neutral_culture"
+        culture="Culture.vlandia"
         weight="30"
         Type="BodyArmor">
         <ItemComponent>
@@ -633,6 +632,7 @@
         mesh="Rus_armour"
         subtype="body_armor"
         weight="24"
+        culture="Culture.sturgia"
         Type="BodyArmor">
         <ItemComponent>
             <Armor body_armor="52"
@@ -649,6 +649,7 @@
         mesh="Rus_armour2"
         subtype="body_armor"  
         weight="24"
+        culture="Culture.sturgia"
         Type="BodyArmor">
         <ItemComponent>
             <Armor body_armor="52"
