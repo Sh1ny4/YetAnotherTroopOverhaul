@@ -7,7 +7,7 @@
               modifier_group="polearm">
               <Pieces>
                      <Piece id="spear_blade_5" Type="Blade" scale_factor="100" />
-                     <Piece id="spear_banner_1" Type="Guard" scale_factor="100" />
+                     <Piece id="spear_banner_10" Type="Guard" scale_factor="100" />
                      <Piece id="spear_handle_19" Type="Handle" scale_factor="140" />
                      <Piece id="spear_pommel_4" Type="Pommel" scale_factor="100" />
               </Pieces>
