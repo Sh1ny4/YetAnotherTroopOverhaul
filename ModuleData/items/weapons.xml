@@ -29,7 +29,6 @@
               mesh="crossbow_f"
               culture="Culture.vlandia"
               weight="2.0"
-              appearance="0.8"
               difficulty="100"
               Type="Crossbow"
               AmmoOffset="0.0, 0.02131, 0.22975"
@@ -63,21 +62,18 @@
        </Item>
 	<Item  id="wipo_flail"
 		name="{=77GPT2B6}War Flail"
-		is_merchandise="false"
 		body_name="bo_mace_a"
 		skeleton_name="flail_skeleton"
 		recalculate_body="true"
 		mesh="flail_b"
 		holster_mesh_with_weapon="flail_b_holster_2"
 		culture="Culture.empire"
-		value="4"
 		weight="4.0"
 		Type="OneHandedWeapon"
 		item_holsters="mace_right_hip"
 		holster_position_shift="0.15,0.0,-0.35">
 		<ItemComponent>
-			<Weapon
-				weapon_class="Mace"
+			<Weapon weapon_class="Mace"
 				weapon_balance="100"
 				thrust_speed="78"
 				speed_rating="97"
