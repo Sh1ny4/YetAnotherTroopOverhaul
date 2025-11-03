@@ -664,4 +664,19 @@
         </ItemComponent>
         <Flags UseTeamColor="true"/>
     </Item>
+
+    <Item id="wld_camel_scale_armor"
+		name="{=wipo_scale_armor}Camel Scale Armor"
+		mesh="camelscalearmor"
+		culture="Culture.aserai"
+		weight="130"
+		Type="HorseHarness">
+		<ItemComponent>
+			<Armor body_armor="70"
+				mane_cover_type="none"
+				family_type="2"
+				material_type="Leather" />
+		</ItemComponent>
+		<Flags Civilian="true" />
+	</Item>
 </Items>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-       <CraftedItem  id="wipo_lance_cb"
+       <CraftedItem  id="wld_lance_cb"
               name="{=wipo_w_bkl}Bannered Knight Lance"
               crafting_template="TwoHandedPolearm"
               culture="Culture.vlandia"
@@ -12,7 +12,7 @@
                      <Piece id="spear_pommel_4" Type="Pommel" scale_factor="100" />
               </Pieces>
        </CraftedItem>
-       <CraftedItem  id="wipo_2h_hammer"
+       <CraftedItem  id="wld_2h_hammer"
               name="{=wipo_w_nhm}Northern Heavy Mace"
               crafting_template="TwoHandedMace"
               culture="Culture.sturgia"
@@ -23,7 +23,7 @@
                      <Piece id="spear_pommel_5" Type="Pommel" scale_factor="100"/>
               </Pieces>
        </CraftedItem>
-       <Item  id="wipo_siege_crossbow"
+       <Item  id="wld_siege_crossbow"
               name="{=wipo_siege_crossbow}Siege Crossbow"
               body_name="bo_cross_bow_heavy"
               mesh="crossbow_f"
@@ -60,7 +60,7 @@
                      </ItemComponent>
               <Flags/>
        </Item>
-	<Item  id="wipo_flail"
+	<Item  id="wld_flail"
 		name="{=77GPT2B6}War Flail"
 		body_name="bo_mace_a"
 		skeleton_name="flail_skeleton"

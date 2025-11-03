@@ -584,7 +584,7 @@
                     <skill id="Throwing" value="40"/>
                 </skills>
                 <upgrade_targets>
-                    <upgrade_target id="NPCCharacter.aserai_veterab_kawas"/>
+                    <upgrade_target id="NPCCharacter.aserai_veteran_kawas"/>
                 </upgrade_targets>
                 <Equipments>
                     <EquipmentRoster>
@@ -637,7 +637,7 @@
                     </EquipmentRoster>
                 </Equipments>
             </NPCCharacter>
-            <NPCCharacter id="aserai_veterab_kawas"
+            <NPCCharacter id="aserai_veteran_kawas"
                 default_group="Ranged"
                 level="21"
                 name="{=YATO_AVK}Aserai Veteran Kawas"
@@ -841,7 +841,7 @@
                         <equipment slot="Gloves" id="Item.padded_vambrace" />
                         <equipment slot="Leg" id="Item.mail_cavalier_boots" />
                         <equipment slot="Horse" id="Item.special_camel" />
-                        <equipment slot="HorseHarness" id="Item.camel_chainmail_armor_1" />
+                        <equipment slot="HorseHarness" id="Item.wld_camel_scale_armor" />
                     </EquipmentRoster>
                     <EquipmentRoster civilian="true">
                         <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
@@ -886,7 +886,7 @@
                         <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
                         <equipment slot="Leg" id="Item.plated_strip_boots" />
                         <equipment slot="Horse" id="Item.special_camel" />
-                        <equipment slot="HorseHarness" id="Item.camel_scale_armor_1" />
+                        <equipment slot="HorseHarness" id="Item.wld_camel_scale_armor" />
                     </EquipmentRoster>
                     <EquipmentRoster civilian="true">
                         <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
@@ -928,7 +928,7 @@
                         <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
                         <equipment slot="Leg" id="Item.plated_strip_boots" />
                         <equipment slot="Horse" id="Item.special_camel" />
-                        <equipment slot="HorseHarness" id="Item.camel_scale_armor_1" />
+                        <equipment slot="HorseHarness" id="Item.wld_camel_scale_armor" />
                     </EquipmentRoster>
                     <EquipmentRoster civilian="true">
                         <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
@@ -3064,6 +3064,8 @@
                 <Equipments>
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+                        <equipment slot="Item1" id="Item.khuzait_mace_3_t4"/>
+                        <equipment slot="Item2" id="Item.decorated_steppe_shield"/>
                         <equipment slot="Head" id="Item.spiked_helmet"/>
                         <equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_b"/>
                         <equipment slot="Body" id="Item.leather_lamellar_armor"/>
@@ -3074,6 +3076,8 @@
                     </EquipmentRoster>
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+                        <equipment slot="Item1" id="Item.khuzait_mace_2_t4"/>
+                        <equipment slot="Item2" id="Item.steel_round_shield"/>
                         <equipment slot="Head" id="Item.spiked_helmet"/>
                         <equipment slot="Cape" id="Item.leather_lamellar_shoulders"/>
                         <equipment slot="Body" id="Item.leather_lamellar_armor"/>
@@ -3084,6 +3088,8 @@
                     </EquipmentRoster>
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+                        <equipment slot="Item1" id="Item.eastern_steel_mace_t4"/>
+                        <equipment slot="Item2" id="Item.decorated_steppe_shield"/>
                         <equipment slot="Head" id="Item.spiked_helmet"/>
                         <equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
                         <equipment slot="Body" id="Item.leather_lamellar_armor"/>
@@ -3117,6 +3123,8 @@
                 <Equipments>
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+                        <equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+                        <equipment slot="Item2" id="Item.steel_round_shield"/>
                         <equipment slot="Head" id="Item.eastern_vendel_helmet"/>
                         <equipment slot="Cape" id="Item.a_metal_lamellar_armor_shoulder_a"/>
                         <equipment slot="Body" id="Item.eastern_lamellar_armor"/>
@@ -3127,6 +3135,8 @@
                     </EquipmentRoster>
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.khuzait_polearm_1_t4"/>
+                        <equipment slot="Item1" id="Item.khuzait_mace_3_t4"/>
+                        <equipment slot="Item2" id="Item.decorated_steppe_shield"/>
                         <equipment slot="Head" id="Item.spiked_helmet_with_facemask"/>
                         <equipment slot="Cape" id="Item.a_metal_lamellar_armor_shoulder_a"/>
                         <equipment slot="Body" id="Item.eastern_lamellar_armor"/>
@@ -5117,7 +5127,7 @@
                         <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
                         <equipment slot="Item1" id="Item.crossbow_c"/>
                         <equipment slot="Item2" id="Item.bolt_b"/>
-                        <equipment slot="Item3" id="Item.wipo_s_lt_pavise"/>
+                        <equipment slot="Item3" id="Item.reinforced_kite_shield"/>
                         <equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
                         <equipment slot="Body" id="Item.padded_coat"/>
                         <equipment slot="Leg" id="Item.wrapped_shoes"/>
@@ -5126,7 +5136,7 @@
                         <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
                         <equipment slot="Item1" id="Item.crossbow_c"/>
                         <equipment slot="Item2" id="Item.bolt_b"/>
-                        <equipment slot="Item3" id="Item.wipo_s_lt_pavise"/>
+                        <equipment slot="Item3" id="Item.reinforced_kite_shield"/>
                         <equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
                         <equipment slot="Body" id="Item.gambeson_b"/>
                         <equipment slot="Leg" id="Item.wrapped_shoes"/>
@@ -5135,7 +5145,7 @@
                         <equipment slot="Item0" id="Item.vlandia_axe_1_t3"/>
                         <equipment slot="Item1" id="Item.crossbow_c"/>
                         <equipment slot="Item2" id="Item.bolt_b"/>
-                        <equipment slot="Item3" id="Item.wipo_s_lt_pavise"/>
+                        <equipment slot="Item3" id="Item.reinforced_kite_shield"/>
                         <equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
                         <equipment slot="Body" id="Item.imperial_padded_cloth"/>
                         <equipment slot="Leg" id="Item.wrapped_shoes"/>
@@ -5241,9 +5251,9 @@
                 <Equipments>
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.eastern_steel_mace_t4" />
-                        <equipment slot="Item1" id="Item.wipo_siege_crossbow" />
+                        <equipment slot="Item1" id="Item.wld_siege_crossbow" />
                         <equipment slot="Item2" id="Item.bolt_c" />
-                        <equipment slot="Item3" id="Item.wipo_pavise" />
+                        <equipment slot="Item3" id="Item.wld_pavise" />
                         <equipment slot="Head" id="Item.kettle_helmet_over_mail" />
                         <equipment slot="Cape" id="Item.hood" />
                         <equipment slot="Body" id="Item.wld_tabbard_over_mail_1" />
@@ -5252,9 +5262,9 @@
                     </EquipmentRoster>
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.eastern_steel_mace_t4" />
-                        <equipment slot="Item1" id="Item.wipo_siege_crossbow" />
+                        <equipment slot="Item1" id="Item.wld_siege_crossbow" />
                         <equipment slot="Item2" id="Item.bolt_c" />
-                        <equipment slot="Item3" id="Item.wipo_pavise" />
+                        <equipment slot="Item3" id="Item.wld_pavise" />
                         <equipment slot="Head" id="Item.guards_kettle_over_mail_coif" />
                         <equipment slot="Cape" id="Item.hood" />
                         <equipment slot="Body" id="Item.wld_tabbard_over_mail_5" />
@@ -5263,9 +5273,9 @@
                     </EquipmentRoster>
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.eastern_steel_mace_t4" />
-                        <equipment slot="Item1" id="Item.wipo_siege_crossbow" />
+                        <equipment slot="Item1" id="Item.wld_siege_crossbow" />
                         <equipment slot="Item2" id="Item.bolt_c" />
-                        <equipment slot="Item3" id="Item.wipo_pavise" />
+                        <equipment slot="Item3" id="Item.wld_pavise" />
                         <equipment slot="Head" id="Item.peaked_helmet_over_mail" />
                         <equipment slot="Cape" id="Item.hood" />
                         <equipment slot="Body" id="Item.wld_tabbard_over_mail_4" />
@@ -5319,7 +5329,7 @@
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.vlandia_lance_1_t3"/>
                         <equipment slot="Item1" id="Item.northern_horsemans_shield"/>
-                        <equipment slot="Item2" id="Item.wipo_flail"/>
+                        <equipment slot="Item2" id="Item.wld_flail"/>
                         <equipment slot="Head" id="Item.nasal_helmet_over_mail"/>
                         <equipment slot="Body" id="Item.mail_shirt"/>
                         <equipment slot="Gloves" id="Item.woven_leather_bracers"/>
@@ -5363,7 +5373,7 @@
                         <equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
                         <equipment slot="Item1" id="Item.northern_horsemans_shield"/>
                         <equipment slot="Item2" id="Item.western_2hsword_t3"/>
-                        <equipment slot="Item3" id="Item.wipo_flail" />
+                        <equipment slot="Item3" id="Item.wld_flail" />
                         <equipment slot="Head" id="Item.segmented_skullcap_over_mail_coif"/>
                         <equipment slot="Body" id="Item.wld_tabbard_over_mail_3"/>
                         <equipment slot="Gloves" id="Item.mail_mitten"/>
@@ -5406,8 +5416,8 @@
                     <EquipmentRoster>
                         <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
                         <equipment slot="Item1" id="Item.sentinel_2hsword" />
-                        <equipment slot="Item1" id="Item.wipo_flail" />
-                        <equipment slot="Item3" id="Item.wipo_s_fks" />
+                        <equipment slot="Item1" id="Item.wld_flail" />
+                        <equipment slot="Item3" id="Item.wld_s_fks" />
                         <equipment slot="Head" id="Item.wld_helm_faceplate_brass" />
                         <equipment slot="Cape" id="Item.wld_chain_shoulders" />
                         <equipment slot="Body" id="Item.wld_coat_of_plates" />
@@ -5446,10 +5456,10 @@
                 </skills>
                 <Equipments>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.wipo_lance_cb" />
+                    <equipment slot="Item0" id="Item.wld_lance_cb" />
                     <equipment slot="Item1" id="Item.sentinel_2hsword" />
-                        <equipment slot="Item1" id="Item.wipo_flail" />
-                    <equipment slot="Item3" id="Item.wipo_s_fks" />
+                        <equipment slot="Item1" id="Item.wld_flail" />
+                    <equipment slot="Item3" id="Item.wld_s_fks" />
                     <equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
                     <equipment slot="Cape" id="Item.wld_chain_shoulders" />
                     <equipment slot="Body" id="Item.wld_coat_of_plates" />

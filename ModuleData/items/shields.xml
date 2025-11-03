@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <Item id="wipo_s_fks"
+  <Item id="wld_s_fks"
         name="{=nVAhoxcH}Fortified Knight Shield"
         body_name="bo_cap_heater_shield_d"
         shield_body_name="bo_heater_shield_d"
@@ -35,7 +35,7 @@
               HeldInOffHand="true"
               ForceAttachOffHandSecondaryItemBone="true" />
   </Item>
-  <Item id="wipo_pavise"
+  <Item id="wld_pavise"
         name="{=aVGSZhCN}Pavise Shield"
         body_name="bo_cap_pavois"
         shield_body_name="bo_pavois"
