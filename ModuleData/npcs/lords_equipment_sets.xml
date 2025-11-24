@@ -580,7 +580,7 @@
         <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
         <Equipment slot="Leg" id="Item.plated_strip_boots" />
         <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding1" />
       </EquipmentSet>
       <EquipmentSet>
         <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
@@ -592,7 +592,7 @@
         <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
         <Equipment slot="Leg" id="Item.plated_strip_boots" />
         <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding2" />
       </EquipmentSet>
       <EquipmentSet>
         <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
@@ -604,7 +604,7 @@
         <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
         <Equipment slot="Leg" id="Item.plated_strip_boots" />
         <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding4" />
       </EquipmentSet>
       <EquipmentSet>
         <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
@@ -616,7 +616,7 @@
         <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
         <Equipment slot="Leg" id="Item.plated_strip_boots" />
         <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding3" />
       </EquipmentSet>
       <EquipmentSet>
         <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
@@ -628,7 +628,7 @@
         <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
         <Equipment slot="Leg" id="Item.plated_strip_boots" />
         <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding4" />
       </EquipmentSet>
       <EquipmentSet>
         <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
@@ -640,7 +640,7 @@
         <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
         <Equipment slot="Leg" id="Item.plated_strip_boots" />
         <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding3" />
       </EquipmentSet>
       <EquipmentSet>
         <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
@@ -652,7 +652,7 @@
         <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
         <Equipment slot="Leg" id="Item.plated_strip_boots" />
         <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding2" />
       </EquipmentSet>
       <EquipmentSet>
         <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
@@ -664,7 +664,7 @@
         <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
         <Equipment slot="Leg" id="Item.plated_strip_boots" />
         <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding1" />
       </EquipmentSet>
       <Flags IsCombatantTemplate="true"
             IsNobleTemplate="true"
@@ -712,7 +712,6 @@
             IsNobleTemplate="true"
             IsCombatantTemplate="true" />
     </EquipmentRoster>
-
     <EquipmentRoster id="vla_king_template_bat_m"
       culture="Culture.vlandia">
       <EquipmentSet civilian="false">

@@ -176,33 +176,6 @@
         <Flags UseTeamColor="false"/>
     </Item>
 
-    <Item id="wld_plate_shoulders"
-        name="Shoulder Plates"
-        mesh="swadian_shoulders"
-        weight="3.6"
-        Type="Cape">
-        <ItemComponent>
-            <Armor body_armor="20"
-                arm_armor="10"
-                modifier_group="plate"
-                material_type="Plate"/>
-        </ItemComponent>
-        <Flags/>
-    </Item>
-    <Item id="wld_plate_shoulders_engraved"
-        name="Ornate Shoulder Plates"
-        mesh="engraved_swadian_shoulders"
-        weight="3.6"
-        Type="Cape">
-        <ItemComponent>
-            <Armor body_armor="20"
-                arm_armor="10"
-                modifier_group="plate"
-                material_type="Plate"/>
-        </ItemComponent>
-        <Flags/>
-    </Item>
-
     <Item id="wld_coat_of_plates"
         name="coat of plates"
         mesh="coat_of_plates1_c"
@@ -283,73 +256,6 @@
                 covers_body="true"
                 modifier_group="chain"
                 material_type="Chainmail"/>
-        </ItemComponent>
-        <Flags UseTeamColor="true"/>
-    </Item>
-    <Item id="wld_plate_armor"
-        name="Western Plate Armor"
-        mesh="swadian_plate_armor"
-        subtype="body_armor"
-        culture="Culture.vlandia"
-        weight="29"
-        Type="BodyArmor">
-        <ItemComponent>
-            <Armor body_armor="58"
-                leg_armor="25"
-                arm_armor="25"
-                covers_body="true"
-                modifier_group="Plate"
-                material_type="Plate"/>
-        </ItemComponent>
-        <Flags UseTeamColor="true"/>
-    </Item>
-    <Item id="wld_plate_armor_striped"
-        name="Western Plate Armor"
-        mesh="swadian_striped_plate_armor"
-        subtype="body_armor"
-        weight="29"
-        Type="BodyArmor">
-        <ItemComponent>
-            <Armor body_armor="58"
-                leg_armor="25"
-                arm_armor="25"
-                covers_body="true"
-                modifier_group="Plate"
-                material_type="Plate"/>
-        </ItemComponent>
-        <Flags UseTeamColor="true"/>
-    </Item>
-    <Item id="wld_plate_armor_armguards"
-        name="Western Cuirass With Armguards"
-        mesh="swadian_plate_with_armguards"
-        subtype="body_armor"
-        culture="Culture.vlandia"
-        weight="26.5"
-        Type="BodyArmor">
-        <ItemComponent>
-            <Armor body_armor="58"
-                leg_armor="25"
-                arm_armor="20"
-                covers_body="true"
-                modifier_group="Plate"
-                material_type="Plate"/>
-        </ItemComponent>
-        <Flags UseTeamColor="true"/>
-    </Item>
-    <Item id="wld_plate_armor_skirt"
-        name="Western Plate Armor With skirt"
-        mesh="sa_surcoatplate"
-        subtype="body_armor"
-        culture="Culture.vlandia"
-        weight="29"
-        Type="BodyArmor">
-        <ItemComponent>
-            <Armor body_armor="58"
-                leg_armor="30"
-                arm_armor="25"
-                covers_body="true"
-                modifier_group="plate"
-                material_type="Plate"/>
         </ItemComponent>
         <Flags UseTeamColor="true"/>
     </Item>
@@ -485,19 +391,6 @@
                 material_type="Plate"/>
         </ItemComponent>
         <Flags UseTeamColor="true"/>
-    </Item>
-    <Item id="wld_plate_boots"
-        name="Plate Boots"
-        mesh="plateboot"
-        weight="1.8"
-        Type="LegArmor">
-        <ItemComponent>
-            <Armor leg_armor="28"
-                covers_legs="true"
-                modifier_group="plate"
-                material_type="Plate"/>
-        </ItemComponent>
-        <Flags/>
     </Item>
 
     <!-- vaegir -->
@@ -679,4 +572,77 @@
 		</ItemComponent>
 		<Flags Civilian="true" />
 	</Item>
+
+    <Item id="wld_coloured_barding1"
+        name="Coloured Mail Barding"
+        mesh="coloured_harness1"
+        culture="Culture.vlandia"
+        weight="50"
+        appearance="1.2"
+        Type="HorseHarness">
+        <ItemComponent>
+        <Armor body_armor="55"
+                mane_cover_type="all"
+                maneuver_bonus="0"
+                speed_bonus="0"
+                reins_mesh=""
+                family_type="1"
+                material_type="Chainmail" />
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="true" />
+    </Item>
+    <Item id="wld_coloured_barding2"
+        name="Coloured Mail Barding"
+        mesh="coloured_harness2"
+        culture="Culture.vlandia"
+        weight="50"
+        appearance="1.2"
+        Type="HorseHarness">
+        <ItemComponent>
+        <Armor body_armor="55"
+                mane_cover_type="all"
+                maneuver_bonus="0"
+                speed_bonus="0"
+                reins_mesh=""
+                family_type="1"
+                material_type="Chainmail" />
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="true" />
+    </Item>
+    <Item id="wld_coloured_barding3"
+        name="Reinforced Coloured Mail Barding"
+        mesh="harness_metal1"
+        culture="Culture.vlandia"
+        weight="70"
+        appearance="1.5"
+        Type="HorseHarness">
+        <ItemComponent>
+        <Armor body_armor="75"
+                mane_cover_type="all"
+                maneuver_bonus="0"
+                speed_bonus="0"
+                reins_mesh=""
+                family_type="1"
+                material_type="Chainmail" />
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="true" />
+    </Item>
+    <Item id="wld_coloured_barding4"
+        name="Reinforced Coloured Mail Barding"
+        mesh="harness_metal2"
+        culture="Culture.vlandia"
+        weight="70"
+        appearance="1.5"
+        Type="HorseHarness">
+        <ItemComponent>
+        <Armor body_armor="75"
+                mane_cover_type="all"
+                maneuver_bonus="0"
+                speed_bonus="0"
+                reins_mesh=""
+                family_type="1"
+                material_type="Chainmail" />
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="true" />
+    </Item>
 </Items>
