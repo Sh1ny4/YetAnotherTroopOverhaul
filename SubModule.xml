@@ -2,7 +2,7 @@
 <Module>
 	<Name value="YetAnotherTroopOverhaul"/>
 	<Id value="YetAnotherTroopOverhaul"/>
-	<Version value="v1.3.2"/>
+	<Version value="v1.3.4"/>
 	<SingleplayerModule value="true"/>
 	<MultiplayerModule value="false"/>
 	<ModuleType value ="Community" />
@@ -44,14 +44,6 @@
 		<!-- factions -->
 		<XmlNode>
 			<XmlName id="SPCultures" path="factions/spcultures"/>
-			<IncludedGameTypes>
-				<GameType value = "Campaign"/>
-				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
-			</IncludedGameTypes>
-		</XmlNode>
-		<XmlNode>
-			<XmlName id="Factions" path="factions/spclans"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
