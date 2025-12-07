@@ -645,4 +645,126 @@
         </ItemComponent>
         <Flags Civilian="true" UseTeamColor="true" />
     </Item>
+
+    <!-- osa -->
+	<Item id="wld_ulfhednar_cloak" 
+        name="{=!}Wolfskin Cloak" 
+        mesh="AR_wolf_head_cloak_a" 
+        culture="Culture.nord" 
+        weight="3.6" 
+        Type="Cape">
+		<ItemComponent>
+			<Armor head_armor="6"
+                body_armor="8"
+                arm_armor="2"
+                modifier_group="leather"
+                material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="wld_berserkr_cloack_a" 
+        name="{=!}Plated Bear Fur" 
+        mesh="berserkr_fur_a" 
+        culture="Culture.nord" 
+        weight="7.4" 
+        Type="Cape">
+		<ItemComponent>
+			<Armor head_armor="7" 
+                body_armor="18"
+                arm_armor="4"
+                modifier_group="leather"
+                material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="wld_berserkr_cloack_b" 
+        name="{=!}Bear Pelt" 
+        mesh="berserkr_fur_b" 
+        culture="Culture.nord" 
+        weight="6.0" 
+        Type="Cape">
+		<ItemComponent>
+			<Armor head_armor="7"
+                body_armor="16"
+                arm_armor="4"
+                modifier_group="leather"
+                material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="wld_berserkr_cloack_c" 
+        name="{=!}Rough Bear Pelt" 
+        mesh="berserkr_fur_c" 
+        culture="Culture.nord" 
+        weight="5.0" 
+        Type="Cape">
+		<ItemComponent>
+			<Armor head_armor="7"
+                body_armor="16"
+                arm_armor="8"
+                modifier_group="leather"
+                material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="wld_ulfhednar_helm" 
+        name="{=!}Ulfhednar's Goggled Helmet" 
+        subtype="head_armor" 
+        mesh="ulfhednar_helmet_a" 
+        culture="Culture.nord" 
+        weight="4.8" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="48"
+                has_gender_variations="false" 
+                hair_cover_type="type2"
+                modifier_group="plate"
+                material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+    
+	<Item id="wld_varyag_helmet" 
+        name="{=!}Varyag Helmet" 
+        mesh="varangian_guard_helmet_b" 
+        culture="Culture.sturgia" 
+        weight="5.0" 
+        Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="51"
+                has_gender_variations="false" 
+                hair_cover_type="all" 
+                beard_cover_type="type2"
+                modifier_group="chain"
+                material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="wld_gladiator_shoulder_a" 
+        name="{=!}Gladiator Pauldron" 
+        mesh="AR_gladiator_shoulder_a" 
+        culture="Culture.empire" 
+        weight="3.5" 
+        Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18"
+                arm_armor="9"
+                modifier_group="plate"
+                material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="wld_gladiator_shoulder_b" 
+        name="{=!}Gladiator Pauldron" 
+        mesh="AR_gladiator_shoulder_b" 
+        culture="Culture.empire" 
+        weight="4.1" 
+        Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16"
+                arm_armor="8"
+                modifier_group="plate"
+                material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
 </Items>
