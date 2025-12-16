@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NPCCharacters>
-    <!-- #region Main Trees -->
-        <!-- #region aserai troops -->
+    <!-- Main Trees -->
+        <!-- aserai troops -->
             <NPCCharacter id="aserai_recruit"
                 default_group="Infantry"
                 level="6"
@@ -939,7 +939,7 @@
                 </Equipments>
             </NPCCharacter>
         <!-- #endregion -->
-        <!-- #region battania troops -->
+        <!-- battania troops -->
             <NPCCharacter id="battanian_volunteer"
                 default_group="Infantry"
                 level="6"
@@ -1854,7 +1854,7 @@
                 </Equipments>
             </NPCCharacter>
         <!-- #endregion -->
-        <!-- #region empire troops -->
+        <!-- empire troops -->
             <NPCCharacter id="imperial_recruit"
                 default_group="Infantry"
                 level="6"
@@ -2835,7 +2835,7 @@
                 </Equipments>
             </NPCCharacter>
         <!-- #endregion -->
-        <!-- #region khuzait troops -->
+        <!-- khuzait troops -->
             <NPCCharacter id="khuzait_nomad"
                 default_group="Infantry"
                 level="6"
@@ -3687,7 +3687,7 @@
                 </Equipments>
             </NPCCharacter>
         <!-- #endregion -->
-        <!-- #region sturgia troops -->
+        <!-- sturgia troops -->
             <NPCCharacter id="sturgian_recruit"
                 default_group="Infantry"
                 level="6"
@@ -4548,7 +4548,7 @@
                 </Equipments>
             </NPCCharacter>
         <!-- #endregion -->
-        <!-- #region vlandia troops -->
+        <!-- vlandia troops -->
             <NPCCharacter id="vlandian_recruit"
                 default_group="Infantry"
                 level="6"
@@ -5477,9 +5477,8 @@
                 </Equipments>
             </NPCCharacter>
         <!-- #endregion -->
-    <!-- #endregion -->
 
-    <!-- #region Mercs -->
+    <!-- Mercs -->
         <!-- mercs -->
             <NPCCharacter id="mercenary_footman"
                 default_group="Infantry"
@@ -6632,9 +6631,8 @@
                     </EquipmentRoster>
                 </Equipments>
             </NPCCharacter>
-    <!-- #endregion -->
 
-    <!-- #region Bandits -->
+    <!-- Bandits -->
         <!-- Looters -->
             <NPCCharacter id="looter"
                 default_group="Infantry"
@@ -8149,9 +8147,8 @@
                     </EquipmentRoster>
                 </Equipments>
             </NPCCharacter>
-    <!-- #endregion -->
 
-    <!-- #region annoyingly needed -->
+    <!-- annoyingly needed -->
             <NPCCharacter id="village_woman_aserai"
                 default_group="Infantry"
                 is_female="true"
@@ -9287,5 +9284,4 @@
                     </EquipmentRoster>
                 </Equipments>
             </NPCCharacter>
-    <!-- #endregion -->
 </NPCCharacters>

@@ -334,7 +334,7 @@
         <Equipment slot="Leg" id="Item.plated_strip_boots" />
       </EquipmentSet>
       <Flags IsCombatantTemplate="true"
-			      IsFemaleTemplate="true"
+            IsFemaleTemplate="true"
             IsNobleTemplate="true"
             IsCivilianTemplate="false" />
     </EquipmentRoster>
