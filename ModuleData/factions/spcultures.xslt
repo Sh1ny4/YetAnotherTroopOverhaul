@@ -34,6 +34,13 @@
 		</basic_mercenary_troops>
     </xsl:template>
 
+	<xsl:template match="Culture[@id='nord']/basic_mercenary_troops">
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.slave_hunter" />
+			<template name="NPCCharacter.mercenary_footman" />
+		</basic_mercenary_troops>
+    </xsl:template>
+
 	<xsl:template match="Culture[@id='sturgia']/basic_mercenary_troops">
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.slave_hunter" />

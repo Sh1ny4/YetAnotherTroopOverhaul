@@ -5,13 +5,6 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
-	<xsl:template match="EquipmentRoster[@id='stu_bat_template_medium']"/>
-	<xsl:template match="EquipmentRoster[@id='stu_bat_template_lady']"/>
-	<xsl:template match="EquipmentRoster[@id='stu_bat_template_heavy']"/>
-	<xsl:template match="EquipmentRoster[@id='stu_bat_template_flamboyant']"/>
-	<xsl:template match="EquipmentRoster[@id='stu_king_template_bat_m']"/>
-	<xsl:template match="EquipmentRoster[@id='stu_king_template_bat_f']"/>
-
 	<xsl:template match="EquipmentRoster[@id='vla_bat_template_medium']"/>
 	<xsl:template match="EquipmentRoster[@id='vla_bat_template_heavy']"/>
 	<xsl:template match="EquipmentRoster[@id='vla_bat_template_flamboyant']"/>

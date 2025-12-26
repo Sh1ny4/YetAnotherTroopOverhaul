@@ -26,7 +26,8 @@
 	<xsl:template match="NPCCharacter[@id='aserai_youth']"/>
 	<xsl:template match="NPCCharacter[@id='aserai_tribal_horseman']"/>
 	<xsl:template match="NPCCharacter[@id='aserai_faris']"/>
-
+	<xsl:template match="NPCCharacter[@id='aserai_marine_t4']"/>
+	<xsl:template match="NPCCharacter[@id='aserai_marine_t5']"/>
 
 	<!-- Battania -->
 	<xsl:template match="NPCCharacter[@id='battanian_volunteer']"/>
@@ -49,7 +50,8 @@
 	<xsl:template match="NPCCharacter[@id='battanian_hero']"/>
 	<xsl:template match="NPCCharacter[@id='battanian_fian']"/>
 	<xsl:template match="NPCCharacter[@id='battanian_fian_champion']"/>
-
+	<xsl:template match="NPCCharacter[@id='battanian_marine_t4']"/>
+	<xsl:template match="NPCCharacter[@id='battanian_marine_t5']"/>
 
 	<!-- Empire -->
 	<xsl:template match="NPCCharacter[@id='imperial_recruit']"/>
@@ -71,7 +73,9 @@
 	<xsl:template match="NPCCharacter[@id='imperial_heavy_horseman']"/>
 	<xsl:template match="NPCCharacter[@id='imperial_cataphract']"/>
 	<xsl:template match="NPCCharacter[@id='imperial_elite_cataphract']"/>
-
+	<xsl:template match="NPCCharacter[@id='empire_marine_t3']"/>
+	<xsl:template match="NPCCharacter[@id='empire_marine_t4']"/>
+	<xsl:template match="NPCCharacter[@id='empire_marine_t5']"/>
 
 	<!-- Khuzait -->
 	<xsl:template match="NPCCharacter[@id='khuzait_nomad']"/>
@@ -95,6 +99,28 @@
 	<xsl:template match="NPCCharacter[@id='khuzait_kheshig']"/>
 	<xsl:template match="NPCCharacter[@id='khuzait_khans_guard']"/>
 
+	<!-- Nord -->
+	<xsl:template match="NPCCharacter[@id='nord_youngling']"/>
+	<xsl:template match="NPCCharacter[@id='nord_drengr']"/>
+	<xsl:template match="NPCCharacter[@id='nord_axe_warrior']"/>
+	<xsl:template match="NPCCharacter[@id='nord_spear_warrior']"/>
+	<xsl:template match="NPCCharacter[@id='nord_boandi']"/>
+	<xsl:template match="NPCCharacter[@id='nord_berserkr']"/>
+	<xsl:template match="NPCCharacter[@id='nord_ungmann']"/>
+	<xsl:template match="NPCCharacter[@id='nord_thegn']"/>
+	<xsl:template match="NPCCharacter[@id='nord_jarlsmann']"/>
+	<xsl:template match="NPCCharacter[@id='nord_hirdmann']"/>
+	<xsl:template match="NPCCharacter[@id='nord_huscarl']"/>
+	<xsl:template match="NPCCharacter[@id='nord_huntsman']"/>
+	<xsl:template match="NPCCharacter[@id='nord_freeman_archer']"/>
+	<xsl:template match="NPCCharacter[@id='nord_marksman']"/>
+	<xsl:template match="NPCCharacter[@id='nord_skathi']"/>
+	<xsl:template match="NPCCharacter[@id='nord_hew']"/>
+	<xsl:template match="NPCCharacter[@id='nord_vargr']"/>
+	<xsl:template match="NPCCharacter[@id='nord_hew-bearer']"/>
+	<xsl:template match="NPCCharacter[@id='nord_skjaldbrestir']"/>
+	<xsl:template match="NPCCharacter[@id='nord_ulfhednar']"/>
+
 	<!-- Sturgia -->
 	<xsl:template match="NPCCharacter[@id='sturgian_recruit']"/>
 	<xsl:template match="NPCCharacter[@id='sturgian_warrior']"/>
@@ -116,6 +142,9 @@
 	<xsl:template match="NPCCharacter[@id='sturgian_berzerker']"/>
 	<xsl:template match="NPCCharacter[@id='sturgian_spearman']"/>
 	<xsl:template match="NPCCharacter[@id='sturgian_ulfhednar']"/>
+	<xsl:template match="NPCCharacter[@id='sturgia_marine_t3']"/>
+	<xsl:template match="NPCCharacter[@id='sturgia_marine_t4']"/>
+	<xsl:template match="NPCCharacter[@id='sturgia_marine_t5']"/>
 
 	<!-- Vlandia -->
 	<xsl:template match="NPCCharacter[@id='vlandian_recruit']"/>
@@ -139,6 +168,8 @@
 	<xsl:template match="NPCCharacter[@id='vlandian_knight']"/>
 	<xsl:template match="NPCCharacter[@id='vlandian_champion']"/>
 	<xsl:template match="NPCCharacter[@id='vlandian_banner_knight']"/>
+	<xsl:template match="NPCCharacter[@id='vlandian_marine_t4']"/>
+	<xsl:template match="NPCCharacter[@id='vlandian_marine_t5']"/>
 
 	<!-- bandits -->
 	<xsl:template match="NPCCharacter[@id='looter']"/>
@@ -181,6 +212,7 @@
 	<xsl:template match="NPCCharacter[@id='village_woman_battania']"/>
 	<xsl:template match="NPCCharacter[@id='village_woman_empire']"/>
 	<xsl:template match="NPCCharacter[@id='village_woman_khuzait']"/>
+	<xsl:template match="NPCCharacter[@id='village_woman_nord']"/>
 	<xsl:template match="NPCCharacter[@id='village_woman_sturgia']"/>
 	<xsl:template match="NPCCharacter[@id='village_woman_vlandia']"/>
 </xsl:stylesheet>
