@@ -2,412 +2,412 @@
 <EquipmentRosters>
   <!-- Vlandia -->
     <EquipmentRoster id="vla_bat_template_medium"
-      culture="Culture.vlandia">
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_1" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_helm_faceplate_blackend_brass" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_2" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_helm_faceplate_brass" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_3" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_4" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_5" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_helm_faceplate_blackend_brass" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_1" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_helm_faceplate_blackend_brass" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_2" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_helm_faceplate_brass" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_3" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_4" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_mail_5" />
-        <Equipment slot="Gloves" id="Item.mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <Flags IsNobleTemplate="true"           
-            IsMediumTemplate="true"
-            IsCombatantTemplate="true" />
+        culture="Culture.vlandia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_1" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_helm_faceplate_blackend_brass" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_2" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_helm_faceplate_brass" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_3" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_4" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_5" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_helm_faceplate_blackend_brass" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_1" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_helm_faceplate_blackend_brass" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_2" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_helm_faceplate_brass" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_3" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_4" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_helm_faceplate_painted" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_mail_5" />
+            <Equipment slot="Gloves" id="Item.mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <Flags IsNobleTemplate="true"           
+                IsMediumTemplate="true"
+                IsCombatantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_heavy"
-      culture="Culture.vlandia">
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates" />
-        <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_brass" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_royal" />
-        <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_dark" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
-        <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_checker" />
-        <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_brass" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_cross" />
-        <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_dark" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates" />
-        <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_royal" />
-        <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
-        <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_brass" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
-        <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
-        <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
-      <Flags IsCombatantTemplate="true"
-            IsNobleTemplate="true"
-            IsHeavyTemplate="true"  />
+        culture="Culture.vlandia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates" />
+            <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_brass" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_royal" />
+            <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_dark" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
+            <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_checker" />
+            <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_brass" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_cross" />
+            <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_dark" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates" />
+            <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_royal" />
+            <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item1" id="Item.vlandia_sword_3_t4" />
+            <Equipment slot="Item3" id="Item.chivalric_kite_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_brass" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
+            <Equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+            <Equipment slot="Leg" id="Item.strapped_mail_chausses" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+                IsNobleTemplate="true"
+                IsHeavyTemplate="true"  />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_flamboyant"
-      culture="Culture.vlandia">
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_checker" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding1" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_cross" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding2" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_dark_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding4" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_royal" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding3" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding4" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_dark_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_checker" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding3" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_cross" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding2" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.wld_coloured_barding1" />
-      </EquipmentSet>
-      <Flags IsCombatantTemplate="true"
-            IsNobleTemplate="true"
-            IsFlamboyantTemplate="true" />
+        culture="Culture.vlandia">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_checker" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.wld_coloured_barding1" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_cross" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.wld_coloured_barding2" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_dark_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.wld_coloured_barding4" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_royal" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.wld_coloured_barding3" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.wld_coloured_barding4" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_dark_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_checker" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.wld_coloured_barding3" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_cross" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.wld_coloured_barding2" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.wld_coloured_barding1" />
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+                IsNobleTemplate="true"
+                IsFlamboyantTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_lady"
-      culture="Culture.vlandia">
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_plate_1" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
+        culture="Culture.vlandia">
         <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_brass" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_plate_2" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />
-      </EquipmentSet>
-      <EquipmentSet>
-        <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-        <Equipment slot="Item1" id="Item.wipo_lance_cb" />
-        <Equipment slot="Item3" id="Item.heavy_heater_shield" />
-        <Equipment slot="Head" id="Item.wld_great_helm_dark" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_tabbard_over_plate_3" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      </EquipmentSet>
-      <Flags IsFemaleTemplate="true"
-            IsNobleTemplate="true"
-            IsCombatantTemplate="true" />
-    </EquipmentRoster>
-    <EquipmentRoster id="vla_king_template_bat_m"
-      culture="Culture.vlandia">
-      <EquipmentSet civilian="false">
-        <Equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
-        <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
-        <Equipment slot="Item2" id="Item.vlandia_sword_4_t4" />
-        <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />   
-      </EquipmentSet>
-      <Flags IsCombatantTemplate="true"
-        IsNobleTemplate="true"
-        IsCivilianTemplate="false" />
-    </EquipmentRoster>
-    <EquipmentRoster id="vla_king_template_bat_f"
-      culture="Culture.vlandia" >
-      <EquipmentSet civilian="false">
-        <Equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
-        <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
-        <Equipment slot="Item2" id="Item.vlandia_sword_4_t4" />
-        <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
-        <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
-        <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
-        <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
-        <Equipment slot="Leg" id="Item.plated_strip_boots" />
-        <Equipment slot="Horse" id="Item.noble_horse_western" />
-        <Equipment slot="HorseHarness" id="Item.chain_barding" />   
-      </EquipmentSet>
-      <Flags IsCombatantTemplate="true"
-			      IsFemaleTemplate="true"
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_plate_1" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+            <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_brass" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_plate_2" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+            <Equipment slot="Item1" id="Item.wipo_lance_cb" />
+            <Equipment slot="Item3" id="Item.heavy_heater_shield" />
+            <Equipment slot="Head" id="Item.wld_great_helm_dark" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_tabbard_over_plate_3" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+        </EquipmentSet>
+        <Flags IsFemaleTemplate="true"
+                IsNobleTemplate="true"
+                IsCombatantTemplate="true" />
+        </EquipmentRoster>
+        <EquipmentRoster id="vla_king_template_bat_m"
+        culture="Culture.vlandia">
+        <EquipmentSet civilian="false">
+            <Equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
+            <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+            <Equipment slot="Item2" id="Item.vlandia_sword_4_t4" />
+            <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />   
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
             IsNobleTemplate="true"
             IsCivilianTemplate="false" />
+    </EquipmentRoster>
+    <EquipmentRoster id="vla_king_template_bat_f"
+        culture="Culture.vlandia" >
+        <EquipmentSet civilian="false">
+            <Equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
+            <Equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+            <Equipment slot="Item2" id="Item.vlandia_sword_4_t4" />
+            <Equipment slot="Head" id="Item.wld_great_helm_brass_winged" />
+            <Equipment slot="Cape" id="Item.wld_chain_shoulders" />
+            <Equipment slot="Body" id="Item.wld_coat_of_plates_lys" />
+            <Equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+            <Equipment slot="Leg" id="Item.plated_strip_boots" />
+            <Equipment slot="Horse" id="Item.noble_horse_western" />
+            <Equipment slot="HorseHarness" id="Item.chain_barding" />   
+        </EquipmentSet>
+        <Flags IsCombatantTemplate="true"
+                    IsFemaleTemplate="true"
+                IsNobleTemplate="true"
+                IsCivilianTemplate="false" />
     </EquipmentRoster>
 </EquipmentRosters>

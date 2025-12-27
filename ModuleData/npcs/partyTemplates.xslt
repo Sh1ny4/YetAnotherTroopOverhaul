@@ -5,6 +5,7 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
+	<xsl:template match="MBPartyTemplate[@id='villager_aserai_template']"/>
 	<xsl:template match="MBPartyTemplate[@id='kingdom_hero_party_aserai_template']"/>
 	<xsl:template match="MBPartyTemplate[@id='vassal_reward_troops_aserai']"/>
 	<xsl:template match="MBPartyTemplate[@id='villager_aserai_template']"/>
