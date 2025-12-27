@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <partyTemplates>
-	<!-- Hero party Troops-->
+	<!-- Aserai Partytemplates -->
 	<MBPartyTemplate id="kingdom_hero_party_aserai_template" >
         <stacks>
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aserai_mamluk_soldier" />
@@ -48,7 +48,7 @@
         </stacks>
 	</MBPartyTemplate>
 
-	<!-- Hero party Troops-->
+	<!-- Battania Partytemplates -->
 	<MBPartyTemplate id="kingdom_hero_party_battania_template" >
         <stacks>
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.battanian_wildling" />
@@ -96,7 +96,7 @@
         </stacks>
 	</MBPartyTemplate>
 
-	<!-- Hero party Troops-->
+	<!-- Empire Partytemplates -->
 	<MBPartyTemplate id="kingdom_hero_party_empire_template" >
         <stacks>
             <PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.imperial_infantryman" />
@@ -143,7 +143,7 @@
         </stacks>
 	</MBPartyTemplate>
 
-	<!-- Hero party Troops-->
+	<!-- Khuzait Partytemplates -->
 	<MBPartyTemplate id="kingdom_hero_party_khuzait_template" >
         <stacks>
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.khuzait_nomad_" />
@@ -190,7 +190,7 @@
         </stacks>
 	</MBPartyTemplate>
 
-	<!-- Hero party Troops-->
+	<!-- Sturgia Partytemplates -->
 	<MBPartyTemplate id="kingdom_hero_party_sturgia_template" >
         <stacks>
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sturgian_warrior" />
@@ -237,7 +237,7 @@
         </stacks>
 	</MBPartyTemplate>
 
-	<!-- Hero party Troops-->
+	<!-- Vlandia Partytemplates -->
 	<MBPartyTemplate id="kingdom_hero_party_vlandia_template" >
         <stacks>
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.vlandian_levy_infantry" />
