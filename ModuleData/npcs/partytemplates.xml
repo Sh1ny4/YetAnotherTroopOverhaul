@@ -41,6 +41,19 @@
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aserai_mamluk_heavy_camelry" />
 		</stacks>
 	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_aserai_template_coastal">
+		<stacks>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.aserai_skirmisher" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.aserai_kawas" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.aserai_mamluk_soldier" />
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.aserai_mamluk_footman" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.aserai_mamluk_infantry" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.aserai_mamluk_veteran_infantry" />
+		</stacks>
+		<ship_hulls>
+			<ShipTemplateStack min_value="1" max_value="1" id="ShipHull.eastern_medium_ship" />
+		</ship_hulls>
+	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_aserai_template" >
         <stacks>
             <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_aserai" />
@@ -89,6 +102,19 @@
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.battanian_riglach" />
 		</stacks>
 	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_battania_template_coastal">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.battanian_savage" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.battanian_veteran_falxman" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.battanian_scout" />
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.battanian_kern" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.battanian_warrior" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.battanian_riglach" />
+		</stacks>
+		<ship_hulls>
+			<ShipTemplateStack min_value="1" max_value="1" id="ShipHull.western_medium_ship" />
+		</ship_hulls>
+	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_battania_template" >
         <stacks>
             <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_battania" />
@@ -135,6 +161,19 @@
 			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.imperial_cavalryman" />
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.imperial_veteran_cavalryman" />
 		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_empire_template_coastal">
+		<stacks>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.imperial_sailor" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.imperial_marine" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.imperial_veteran_marine" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.imperial_elite_marine" />
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.imperial_hastati" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.imperial_triarii" />
+		</stacks>
+		<ship_hulls>
+			<ShipTemplateStack min_value="1" max_value="1" id="ShipHull.empire_medium_ship" />
+		</ship_hulls>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_empire_template" >
         <stacks>
@@ -183,10 +222,83 @@
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.khuzait_heavy_lancer" />
 		</stacks>
 	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_khuzait_template_coastal">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.khuzait_footman" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.khuzait_bowman" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.khuzait_marksman" />
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.khuzait_horseman" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.khuzait_lancer" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzait_heavy_lancer" />
+		</stacks>
+		<ship_hulls>
+			<ShipTemplateStack min_value="1" max_value="1" id="ShipHull.eastern_medium_ship" />
+		</ship_hulls>
+	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_khuzait_template" >
         <stacks>
             <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_khuzait" />
             <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_khuzait" />
+        </stacks>
+	</MBPartyTemplate>
+    
+	<!-- Nord Partytemplates -->
+	<MBPartyTemplate id="kingdom_hero_party_nord_template" >
+        <stacks>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.nord_footman" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.nord_warrior" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_skirmisher" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_companion" />
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_huscarl" />
+        </stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_nord" >
+        <stacks>
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.nord_huscarl" />
+        </stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_nord_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.nord_footman" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.nord_warrior" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.nord_archer" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_svinfylking" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_nord_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.nord_warrior" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.nord_archer" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.nord_svinfylking" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.nord_trained_warrior" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_nord_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.nord_warrior" />
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.nord_archer" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.nord_svinfylking" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.nord_trained_warrior" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.nord_veteran_warrior" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_nord_template_coastal">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.nord_warrior" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.nord_veteran_warrior" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.nord_svinfylking" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.nord_berserker" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.nord_archer" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.nord_veteran_archer" />
+		</stacks>
+		<ship_hulls>
+			<ShipTemplateStack min_value="1" max_value="1" id="ShipHull.northern_medium_ship" />
+		</ship_hulls>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="villager_nord_template" >
+        <stacks>
+            <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.villager_nord" />
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.village_woman_nord" />
         </stacks>
 	</MBPartyTemplate>
 
@@ -194,7 +306,7 @@
 	<MBPartyTemplate id="kingdom_hero_party_sturgia_template" >
         <stacks>
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sturgian_warrior" />
-            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sturgian_line_breaker" />
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sturgian_varyag" />
             <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_woodman" />
             <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_druzhinnik" />
             <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_malaia" />
@@ -209,26 +321,39 @@
 		<stacks>
 			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.sturgian_footman" />
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.sturgian_warrior" />
-			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.sturgian_axeman" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.sturgian_cavalry" />
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgian_archer" />
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="patrol_party_sturgia_template_level_2">
 		<stacks>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.sturgian_warrior" />
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.sturgian_spearman" />
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.sturgian_axeman" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.sturgian_varyag" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.sturgian_cavalry" />
 			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.sturgian_archer" />
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="patrol_party_sturgia_template_level_3">
 		<stacks>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.sturgian_warrior" />
-			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.sturgian_spearman" />
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.sturgian_axeman" />
-			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.sturgian_heavy_spearman" />
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.sturgian_varyag" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.sturgian_varyag_veteran" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.sturgian_cavalry" />
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sturgian_archer" />
 		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_sturgia_template_coastal">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.sturgian_warrior" />
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.sturgian_varyag" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.sturgian_varyag_veteran" />
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.sturgian_archer" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.sturgian_veteran_archer" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.sturgian_marksman" />
+		</stacks>
+		<ship_hulls>
+			<ShipTemplateStack min_value="1" max_value="1" id="ShipHull.northern_medium_ship" />
+		</ship_hulls>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_sturgia_template" >
         <stacks>
@@ -276,6 +401,18 @@
 			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.vlandian_coursier" />
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.vlandian_cavalier" />
 		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_vlandia_template_coastal">
+		<stacks>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.vlandian_crossbowman" />
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.vlandian_veteran_crossbowman" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.vlandian_arbaletrier" />
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.vlandian_homme_armes" />
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.vlandian_sergent_armes" />
+		</stacks>
+		<ship_hulls>
+			<ShipTemplateStack min_value="1" max_value="1" id="ShipHull.western_medium_ship" />
+		</ship_hulls>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_vlandia_template" >
         <stacks>
