@@ -189,6 +189,9 @@
 	<xsl:template match="NPCCharacter[@id='steppe_bandits_bandit']"/>
 	<xsl:template match="NPCCharacter[@id='steppe_bandits_raider']"/>
 	<xsl:template match="NPCCharacter[@id='steppe_bandits_chief']"/>
+	<xsl:template match="NPCCharacter[@id='southern_pirates_bandit']"/>
+	<xsl:template match="NPCCharacter[@id='southern_pirates_raider']"/>
+	<xsl:template match="NPCCharacter[@id='southern_pirates_chief']"/>
 
 	<!-- mercs -->
 	<xsl:template match="NPCCharacter[@id='sword_sisters_sister_t3']"/>

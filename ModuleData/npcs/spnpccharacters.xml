@@ -2695,6 +2695,44 @@
                 <upgrade_target id="NPCCharacter.imperial_marine"/>
             </upgrade_targets>
             <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow"/>
+                    <equipment slot="Item1" id="Item.range_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
+                    <equipment slot="Body" id="Item.leather_tunic"/>
+                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow"/>
+                    <equipment slot="Item1" id="Item.range_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
+                    <equipment slot="Body" id="Item.leather_tunic"/>
+                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow"/>
+                    <equipment slot="Item1" id="Item.range_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
+                    <equipment slot="Body" id="Item.leather_tunic"/>
+                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow"/>
+                    <equipment slot="Item1" id="Item.range_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
+                    <equipment slot="Body" id="Item.leather_tunic"/>
+                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster civilian="true">
+                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                    <equipment slot="Item2" id="Item.throwing_stone"/>
+                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_marine"
@@ -2724,6 +2762,44 @@
                 <upgrade_target id="NPCCharacter.imperial_veteran_marine"/>
             </upgrade_targets>
             <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow"/>
+                    <equipment slot="Item1" id="Item.range_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
+                    <equipment slot="Body" id="Item.leather_tunic"/>
+                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow"/>
+                    <equipment slot="Item1" id="Item.range_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
+                    <equipment slot="Body" id="Item.leather_tunic"/>
+                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow"/>
+                    <equipment slot="Item1" id="Item.range_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
+                    <equipment slot="Body" id="Item.leather_tunic"/>
+                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.hunting_bow"/>
+                    <equipment slot="Item1" id="Item.range_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
+                    <equipment slot="Body" id="Item.leather_tunic"/>
+                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster civilian="true">
+                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                    <equipment slot="Item2" id="Item.throwing_stone"/>
+                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_veteran_marine"
@@ -2752,7 +2828,60 @@
             <upgrade_targets>
                 <upgrade_target id="NPCCharacter.imperial_elite_marine"/>
             </upgrade_targets>
-            <Equipments>
+            <Equipments><EquipmentRoster>
+                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_a"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_b"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_d"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_f"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
+                <EquipmentRoster civilian="true">
+                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                    <equipment slot="Item2" id="Item.throwing_stone"/>
+                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_elite_marine"
@@ -2779,6 +2908,52 @@
                 <skill id="Throwing" value="60"/>
             </skills>
             <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.composite_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.barbed_arrows"/>
+                    <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
+                    <equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather"/>
+                    <equipment slot="Body" id="Item.eastern_studded_leather"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.composite_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.barbed_arrows"/>
+                    <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
+                    <equipment slot="Head" id="Item.roundkettle_over_imperial_leather"/>
+                    <equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.composite_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.barbed_arrows"/>
+                    <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
+                    <equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather"/>
+                    <equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.composite_bow"/>
+                    <equipment slot="Item1" id="Item.barbed_arrows"/>
+                    <equipment slot="Item2" id="Item.barbed_arrows"/>
+                    <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
+                    <equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather"/>
+                    <equipment slot="Body" id="Item.eastern_studded_leather"/>
+                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
+                    <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                </EquipmentRoster>
+                <EquipmentRoster civilian="true">
+                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+                    <equipment slot="Item2" id="Item.throwing_stone"/>
+                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         
@@ -5052,6 +5227,17 @@
                     <equipment slot="Item2" id="Item.southern_throwing_axe_1_t4" />
                     <equipment slot="Item3" id="Item.fortified_kite_shield" />
                     <equipment slot="Head" id="Item.wld_varyag_helmet" />
+                    <equipment slot="Cape" id="Item.varangian_bra_basic" />
+                    <equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+                    <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+                    <equipment slot="Leg" id="Item.plated_strip_boots" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.sturgia_2haxe_1_t4" />
+                    <equipment slot="Item1" id="Item.empire_noble_sword_2_t5" />
+                    <equipment slot="Item2" id="Item.southern_throwing_axe_1_t4" />
+                    <equipment slot="Item3" id="Item.fortified_kite_shield" />
+                    <equipment slot="Head" id="Item.wld_varyag_helmet" />
                     <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
                     <equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
                     <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
@@ -5065,17 +5251,6 @@
                     <equipment slot="Head" id="Item.wld_varyag_helmet" />
                     <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
                     <equipment slot="Body" id="Item.sturgian_lamellar_base" />
-                    <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
-                    <equipment slot="Leg" id="Item.plated_strip_boots" />
-                </EquipmentRoster>
-                <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.sturgia_2haxe_1_t4" />
-                    <equipment slot="Item1" id="Item.empire_noble_sword_2_t5" />
-                    <equipment slot="Item2" id="Item.southern_throwing_axe_1_t4" />
-                    <equipment slot="Item3" id="Item.fortified_kite_shield" />
-                    <equipment slot="Head" id="Item.wld_varyag_helmet" />
-                    <equipment slot="Cape" id="Item.varangian_bra_basic" />
-                    <equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
                     <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
                     <equipment slot="Leg" id="Item.plated_strip_boots" />
                 </EquipmentRoster>
@@ -10332,6 +10507,9 @@
                 <face_key_template value="BodyProperty.townswoman_nord" />
             </face>
             <skills></skills>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.sword_follower" />
+            </upgrade_targets>
             <Equipments>
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
