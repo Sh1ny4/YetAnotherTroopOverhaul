@@ -52,12 +52,6 @@
                     <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
                     <equipment slot="Leg" id="Item.eastern_leather_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="aserai_mamluk_footman"
@@ -125,12 +119,6 @@
                     <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
                     <equipment slot="Leg" id="Item.eastern_leather_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="aserai_mamluk_soldier"
@@ -155,6 +143,7 @@
             </skills>
             <upgrade_targets>
                 <upgrade_target id="NPCCharacter.aserai_mamluk_infantry"/>
+                <upgrade_target id="NPCCharacter.aserai_bahhar"/>
             </upgrade_targets>
             <Equipments>
                 <EquipmentRoster>
@@ -200,12 +189,6 @@
                     <equipment slot="Body" id="Item.leather_strips_over_padded_robe"/>
                     <equipment slot="Gloves" id="Item.padded_vambrace"/>
                     <equipment slot="Leg" id="Item.steppe_leather_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -274,11 +257,61 @@
                     <equipment slot="Gloves" id="Item.padded_vambrace" />
                     <equipment slot="Leg" id="Item.eastern_leather_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="aserai_bahhar"
+            default_group="Infantry"
+            level="21"
+            name="{=YATO_ABah}Aserai Bahhar"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.aserai">
+            <face>
+                <face_key_template value="BodyProperty.fighter_aserai"/>
+            </face>
+            <Traits>
+                <Trait id="NavalSoldier" value="1" />
+            </Traits>
+            <skills >
+                <skill id="Athletics" value="100"/>
+                <skill id="Riding" value="45"/>
+                <skill id="OneHanded" value="100"/>
+                <skill id="TwoHanded" value="80"/>
+                <skill id="Polearm" value="100"/>
+                <skill id="Bow" value="45"/>
+                <skill id="Crossbow" value="15"/>
+                <skill id="Throwing" value="40"/>
+            </skills>
+            <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.northern_javelin_3_t4" />
+                    <equipment slot="Item3" id="Item.curved_round_shield" />
+                    <equipment slot="Head" id="Item.pointed_skullcap_over_mail" />
+                    <equipment slot="Cape" id="Item.desert_leather_shoulderpad" />
+                    <equipment slot="Body" id="Item.aserai_robe_c_chain" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.northern_javelin_3_t4" />
+                    <equipment slot="Item3" id="Item.large_adarga" />
+                    <equipment slot="Head" id="Item.pointed_skullcap_with_mail" />
+                    <equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+                    <equipment slot="Body" id="Item.desert_robe_over_mail" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.steppe_leather_boots" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.northern_javelin_3_t4" />
+                    <equipment slot="Item3" id="Item.large_adarga" />
+                    <equipment slot="Head" id="Item.pointed_skullcap_over_laced_coif" />
+                    <equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+                    <equipment slot="Body" id="Item.aserai_archer_armor" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.steppe_leather_boots" />
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -324,12 +357,6 @@
                     <equipment slot="Body" id="Item.desert_lamellar" />
                     <equipment slot="Gloves" id="Item.padded_vambrace" />
                     <equipment slot="Leg" id="Item.plated_strip_boots" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -408,12 +435,6 @@
                     <equipment slot="Horse" id="Item.noble_camel" />
                     <equipment slot="HorseHarness" id="Item.camel_saddle" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="aserai_mamluk_heavy_camelry"
@@ -486,12 +507,6 @@
                     <equipment slot="Horse" id="Item.noble_camel" />
                     <equipment slot="HorseHarness" id="Item.camel_saddle" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="aserai_skirmisher"
@@ -553,12 +568,6 @@
                     <equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
                     <equipment slot="Body" id="Item.aserai_civil_b"/>
                     <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -628,12 +637,6 @@
                     <equipment slot="Gloves" id="Item.padded_vambrace" />
                     <equipment slot="Leg" id="Item.steppe_leather_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="aserai_veteran_kawas"
@@ -702,12 +705,6 @@
                     <equipment slot="Gloves" id="Item.padded_vambrace"/>
                     <equipment slot="Leg" id="Item.steppe_leather_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="aserai_master_kawas"
@@ -752,12 +749,6 @@
                     <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
                     <equipment slot="Leg" id="Item.plated_strip_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         
@@ -798,12 +789,6 @@
                     <equipment slot="Horse" id="Item.war_camel" />
                     <equipment slot="HorseHarness" id="Item.camel_saddle" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="aserai_azdrak_faris"
@@ -841,12 +826,6 @@
                     <equipment slot="Leg" id="Item.mail_cavalier_boots" />
                     <equipment slot="Horse" id="Item.special_camel" />
                     <equipment slot="HorseHarness" id="Item.wld_camel_scale_armor" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -887,12 +866,6 @@
                     <equipment slot="Horse" id="Item.special_camel" />
                     <equipment slot="HorseHarness" id="Item.wld_camel_scale_armor" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="aserai_zehabi_faris"
@@ -928,12 +901,6 @@
                     <equipment slot="Leg" id="Item.plated_strip_boots" />
                     <equipment slot="Horse" id="Item.special_camel" />
                     <equipment slot="HorseHarness" id="Item.wld_camel_scale_armor" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -990,12 +957,6 @@
                     <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
                     <equipment slot="Leg" id="Item.rough_tied_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="battanian_wildling"
@@ -1048,12 +1009,6 @@
                     <equipment slot="Body" id="Item.battanian_savage_armor" />
                     <equipment slot="Gloves" id="Item.rough_tied_bracers" />
                     <equipment slot="Leg" id="Item.rough_tied_boots" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -1116,12 +1071,6 @@
                     <equipment slot="Body" id="Item.battania_woodland_outfit" />
                     <equipment slot="Gloves" id="Item.rough_tied_bracers" />
                     <equipment slot="Leg" id="Item.rough_tied_boots" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -1193,12 +1142,6 @@
                     <equipment slot="Gloves" id="Item.rough_tied_bracers" />
                     <equipment slot="Leg" id="Item.rough_tied_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="battanian_veteran_falxman"
@@ -1230,12 +1173,6 @@
                     <equipment slot="Body" id="Item.battanian_scale_armor_b"/>
                     <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
                     <equipment slot="Leg" id="Item.rough_tied_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -1299,12 +1236,6 @@
                     <equipment slot="Body" id="Item.battania_light_armor_a"/>
                     <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
                     <equipment slot="Leg" id="Item.rough_tied_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -1383,12 +1314,6 @@
                     <equipment slot="Horse" id="Item.battania_horse"/>
                     <equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="battanian_horseman"
@@ -1464,12 +1389,6 @@
                     <equipment slot="Horse" id="Item.battania_horse"/>
                     <equipment slot="HorseHarness" id="Item.battania_horse_harness"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="battanian_kern"
@@ -1536,12 +1455,6 @@
                     <equipment slot="Body" id="Item.battanian_chainmail_armor_c"/>
                     <equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
                     <equipment slot="Leg" id="Item.rough_tied_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -1613,12 +1526,6 @@
                     <equipment slot="Gloves" id="Item.highland_gloves"/>
                     <equipment slot="Leg" id="Item.highland_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="battanian_riglach"
@@ -1673,12 +1580,6 @@
                     <equipment slot="Gloves" id="Item.northern_brass_bracers" />
                     <equipment slot="Leg" id="Item.battania_leather_boots" />
                     </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         
@@ -1717,12 +1618,6 @@
                     <equipment slot="Gloves" id="Item.leather_gloves"/>
                     <equipment slot="Leg" id="Item.battania_leather_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="battanian_oathsworn"
@@ -1759,12 +1654,6 @@
                     <equipment slot="Body" id="Item.battanian_chainmail_armor_b"/>
                     <equipment slot="Gloves" id="Item.highland_gloves"/>
                     <equipment slot="Leg" id="Item.battania_leather_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -1803,12 +1692,6 @@
                     <equipment slot="Gloves" id="Item.battania_noble_bracers" />
                     <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="battanian_swaethwr"
@@ -1842,12 +1725,6 @@
                     <equipment slot="Body" id="Item.battanian_scale_armor_a" />
                     <equipment slot="Gloves" id="Item.battania_noble_bracers" />
                     <equipment slot="Leg" id="Item.battania_leather_boots" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -1899,12 +1776,6 @@
                     <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
                     <equipment slot="Body" id="Item.tied_cloth_tunic"/>
                     <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -1974,12 +1845,6 @@
                     <equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
                     <equipment slot="Leg" id="Item.folded_town_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_hastati"
@@ -2010,7 +1875,7 @@
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
                     <equipment slot="Item1" id="Item.imperial_spear_t2"/>
-                    <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4_2" />
+                    <equipment slot="Item2" id="Item.wld_pilum_2" />
                     <equipment slot="Item3" id="Item.heavy_horsemans_kite_shield"/>
                     <equipment slot="Head" id="Item.imperial_nasal_helm"/>
                     <equipment slot="Body" id="Item.imperial_mail_vest"/>
@@ -2019,7 +1884,7 @@
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
                     <equipment slot="Item1" id="Item.imperial_spear_t2"/>
-                    <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4_2" />
+                    <equipment slot="Item2" id="Item.wld_pilum_2" />
                     <equipment slot="Item3" id="Item.heavy_horsemans_kite_shield"/>
                     <equipment slot="Head" id="Item.imperial_nasal_helm"/>
                     <equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
@@ -2028,7 +1893,7 @@
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
                     <equipment slot="Item1" id="Item.imperial_spear_t2"/>
-                    <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4_2" />
+                    <equipment slot="Item2" id="Item.wld_pilum_2" />
                     <equipment slot="Item3" id="Item.heavy_horsemans_kite_shield"/>
                     <equipment slot="Head" id="Item.imperial_nasal_helm"/>
                     <equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
@@ -2037,17 +1902,11 @@
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.empire_sword_1_t2"/>
                     <equipment slot="Item1" id="Item.imperial_spear_t2"/>
-                    <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4_2" />
+                    <equipment slot="Item2" id="Item.wld_pilum_2" />
                     <equipment slot="Item3" id="Item.heavy_horsemans_kite_shield"/>
                     <equipment slot="Head" id="Item.imperial_nasal_helm"/>
                     <equipment slot="Body" id="Item.imperial_mail_vest"/>
                     <equipment slot="Leg" id="Item.folded_town_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -2078,7 +1937,7 @@
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.empire_sword_4_t4"/>
                     <equipment slot="Item1" id="Item.western_spear_5_t4"/>
-                    <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4_2" />
+                    <equipment slot="Item2" id="Item.wld_pilum_2" />
                     <equipment slot="Item3" id="Item.fortified_kite_shield"/>
                     <equipment slot="Head" id="Item.imperial_nasal_helm"/>
                     <equipment slot="Cape" id="Item.a_empire_plated_shoulder_a" />
@@ -2089,7 +1948,7 @@
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.empire_sword_4_t4"/>
                     <equipment slot="Item1" id="Item.western_spear_5_t4"/>
-                    <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4_2" />
+                    <equipment slot="Item2" id="Item.wld_pilum_2" />
                     <equipment slot="Item3" id="Item.fortified_kite_shield"/>
                     <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
                     <equipment slot="Head" id="Item.imperial_nasal_helm"/>
@@ -2100,19 +1959,13 @@
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.empire_sword_4_t4"/>
                     <equipment slot="Item1" id="Item.western_spear_5_t4"/>
-                    <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4_2" />
+                    <equipment slot="Item2" id="Item.wld_pilum_2" />
                     <equipment slot="Item3" id="Item.fortified_kite_shield"/>
                     <equipment slot="Head" id="Item.imperial_nasal_helm"/>
                     <equipment slot="Cape" id="Item.varangian_bra_basic" />
                     <equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
                     <equipment slot="Gloves" id="Item.mail_mitten"/>
                     <equipment slot="Leg" id="Item.strapped_leather_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -2140,19 +1993,13 @@
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.empire_sword_4_t4"/>
                     <equipment slot="Item1" id="Item.fine_pike_t4"/>
-                    <equipment slot="Item2" id="Item.imperial_throwing_spear_1_t4_2" />
+                    <equipment slot="Item2" id="Item.wld_pilum_2" />
                     <equipment slot="Item3" id="Item.fortified_kite_shield"/>
                     <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather"/>
                     <equipment slot="Cape" id="Item.varangian_bra_mail" />
                     <equipment slot="Body" id="Item.empire_legion_a"/>
                     <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets"/>
                     <equipment slot="Leg" id="Item.lamellar_plate_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -2190,12 +2037,6 @@
                     <equipment slot="Horse" id="Item.empire_horse"/>
                     <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_veteran_cavalryman"
@@ -2229,12 +2070,6 @@
                     <equipment slot="Leg" id="Item.mail_cavalier_boots"/>
                     <equipment slot="Horse" id="Item.empire_horse"/>
                     <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -2293,12 +2128,6 @@
                     <equipment slot="Head" id="Item.laced_cloth_coif"/>
                     <equipment slot="Body" id="Item.leather_tunic"/>
                     <equipment slot="Leg" id="Item.strapped_leather_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -2375,12 +2204,6 @@
                     <equipment slot="Gloves" id="Item.padded_vambrace"/>
                     <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_veteran_archer"
@@ -2447,12 +2270,6 @@
                     <equipment slot="Gloves" id="Item.padded_vambrace"/>
                     <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_elite_archer"
@@ -2515,12 +2332,6 @@
                     <equipment slot="Body" id="Item.imperial_mail_over_leather"/>
                     <equipment slot="Gloves" id="Item.padded_vambrace"/>
                     <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -2592,12 +2403,6 @@
                     <equipment slot="Horse" id="Item.empire_horse"/>
                     <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_veteran_horse_archer"
@@ -2660,16 +2465,10 @@
                     <equipment slot="Horse" id="Item.t2_empire_horse"/>
                     <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_sailor"
-            default_group="Ranged"
+            default_group="Infantry"
             level="11"
             name="{=YATO_ISa}Imperial Sailor"
             is_basic_troop="true"
@@ -2687,56 +2486,49 @@
                 <skill id="OneHanded" value="40"/>
                 <skill id="TwoHanded" value="15"/>
                 <skill id="Polearm" value="20"/>
-                <skill id="Bow" value="40"/>
+                <skill id="Bow" value="20"/>
                 <skill id="Crossbow" value="20"/>
-                <skill id="Throwing" value="15"/>
+                <skill id="Throwing" value="40"/>
             </skills>
             <upgrade_targets>
                 <upgrade_target id="NPCCharacter.imperial_marine"/>
             </upgrade_targets>
             <Equipments>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.hunting_bow"/>
-                    <equipment slot="Item1" id="Item.range_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
-                    <equipment slot="Body" id="Item.leather_tunic"/>
-                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                    <equipment slot="Item0" id="Item.falchion_sword_t2" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Head" id="Item.nasal_helmet" />
+                    <equipment slot="Body" id="Item.footmans_tunic" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.wrapped_shoes" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.hunting_bow"/>
-                    <equipment slot="Item1" id="Item.range_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
-                    <equipment slot="Body" id="Item.leather_tunic"/>
-                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                    <equipment slot="Item0" id="Item.falchion_sword_t2" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Head" id="Item.cervelliere_over_padded_cap" />
+                    <equipment slot="Body" id="Item.tied_cloth_tunic" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.wrapped_shoes" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.hunting_bow"/>
-                    <equipment slot="Item1" id="Item.range_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
-                    <equipment slot="Body" id="Item.leather_tunic"/>
-                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                    <equipment slot="Item0" id="Item.falchion_sword_t2" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Head" id="Item.cervelliere_over_padded_cap" />
+                    <equipment slot="Body" id="Item.empire_short_dress" />
+                    <equipment slot="Gloves" id="Item.strapped_leather_bracers" />
+                    <equipment slot="Leg" id="Item.wrapped_shoes" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.hunting_bow"/>
-                    <equipment slot="Item1" id="Item.range_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
-                    <equipment slot="Body" id="Item.leather_tunic"/>
-                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                    <equipment slot="Item0" id="Item.falchion_sword_t2" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Head" id="Item.arming_coif" />
+                    <equipment slot="Body" id="Item.empire_short_dress" />
+                    <equipment slot="Leg" id="Item.wrapped_shoes" />
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_marine"
-            default_group="Ranged"
+            default_group="Infantry"
             level="16"
             name="{=YATO_Imar}Imperial Marine"
             is_basic_troop="true"
@@ -2754,59 +2546,87 @@
                 <skill id="OneHanded" value="70"/>
                 <skill id="TwoHanded" value="40"/>
                 <skill id="Polearm" value="30"/>
-                <skill id="Bow" value="70"/>
+                <skill id="Bow" value="30"/>
                 <skill id="Crossbow" value="30"/>
-                <skill id="Throwing" value="40"/>
+                <skill id="Throwing" value="80"/>
             </skills>
             <upgrade_targets>
                 <upgrade_target id="NPCCharacter.imperial_veteran_marine"/>
             </upgrade_targets>
             <Equipments>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.hunting_bow"/>
-                    <equipment slot="Item1" id="Item.range_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
-                    <equipment slot="Body" id="Item.leather_tunic"/>
-                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                    <equipment slot="Item0" id="Item.broad_ild_sword_t3" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.imperial_nasal_helm" />
+                    <equipment slot="Cape" id="Item.a_empire_plated_shoulder_a" />
+                    <equipment slot="Body" id="Item.padded_cloth_with_strips" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.hunting_bow"/>
-                    <equipment slot="Item1" id="Item.range_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
-                    <equipment slot="Body" id="Item.leather_tunic"/>
-                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                    <equipment slot="Item0" id="Item.broad_ild_sword_t3" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.imperial_nasal_helm" />
+                    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_g" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.hunting_bow"/>
-                    <equipment slot="Item1" id="Item.range_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
-                    <equipment slot="Body" id="Item.leather_tunic"/>
-                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                    <equipment slot="Item0" id="Item.broad_ild_sword_t3" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.imperial_nasal_helm" />
+                    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_d" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.hunting_bow"/>
-                    <equipment slot="Item1" id="Item.range_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-                    <equipment slot="Head" id="Item.laced_cloth_coif"/>
-                    <equipment slot="Body" id="Item.leather_tunic"/>
-                    <equipment slot="Leg" id="Item.strapped_leather_boots"/>
+                    <equipment slot="Item0" id="Item.broad_ild_sword_t3" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.imperial_nasal_helm" />
+                    <equipment slot="Cape" id="Item.a_empire_plated_shoulder_a" />
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_b" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.broad_ild_sword_t3" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.imperial_nasal_helm" />
+                    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_c" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.broad_ild_sword_t3" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.imperial_nasal_helm" />
+                    <equipment slot="Cape" id="Item.a_empire_plated_shoulder_a" />
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_f" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_veteran_marine"
-            is_basic_troop="true"
-            default_group="Ranged"
+            default_group="Infantry"
             level="21"
             name="{=YATO_IVMar}Imperial Veteran Marine"
+            is_basic_troop="true"
             occupation="Soldier"
             culture="Culture.empire">
             <face>
@@ -2821,71 +2641,62 @@
                 <skill id="OneHanded" value="100"/>
                 <skill id="TwoHanded" value="60"/>
                 <skill id="Polearm" value="60"/>
-                <skill id="Bow" value="100"/>
+                <skill id="Bow" value="40"/>
                 <skill id="Crossbow" value="45"/>
-                <skill id="Throwing" value="45"/>
+                <skill id="Throwing" value="110"/>
             </skills>
             <upgrade_targets>
                 <upgrade_target id="NPCCharacter.imperial_elite_marine"/>
             </upgrade_targets>
-            <Equipments><EquipmentRoster>
-                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
-                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_a"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+                    <equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth" />
+                    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+                    <equipment slot="Body" id="Item.imperial_mail_over_stripped_leather" />
+                    <equipment slot="Gloves" id="Item.splinted_bracers" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
-                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_b"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+                    <equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth" />
+                    <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+                    <equipment slot="Body" id="Item.legionary_mail" />
+                    <equipment slot="Gloves" id="Item.splinted_bracers" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
-                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+                    <equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth" />
+                    <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+                    <equipment slot="Body" id="Item.imperial_mail_over_stripped_leather" />
+                    <equipment slot="Gloves" id="Item.splinted_bracers" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
-                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_d"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
-                <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
-                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
-                <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.mountain_hunting_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.empire_sword_1_t2"/>
-                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_f"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.bound_desert_round_shield" />
+                    <equipment slot="Head" id="Item.heavy_nasalhelm_over_laced_cloth" />
+                    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+                    <equipment slot="Body" id="Item.imperial_mail_vest" />
+                    <equipment slot="Gloves" id="Item.splinted_bracers" />
+                    <equipment slot="Leg" id="Item.battania_leather_boots" />
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_elite_marine"
-            default_group="Ranged"
+            default_group="Infantry"
             level="26"
             name="{=YATO_IEMar}Imperial Elite Marine"
             is_basic_troop="true"
@@ -2903,56 +2714,54 @@
                 <skill id="OneHanded" value="130"/>
                 <skill id="TwoHanded" value="30"/>
                 <skill id="Polearm" value="80"/>
-                <skill id="Bow" value="140"/>
+                <skill id="Bow" value="60"/>
                 <skill id="Crossbow" value="80"/>
-                <skill id="Throwing" value="60"/>
+                <skill id="Throwing" value="140"/>
             </skills>
             <Equipments>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.composite_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.barbed_arrows"/>
-                    <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                    <equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather"/>
-                    <equipment slot="Body" id="Item.eastern_studded_leather"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather" />
+                    <equipment slot="Cape" id="Item.varangian_bra_royal" />
+                    <equipment slot="Body" id="Item.empire_legion_b" />
+                    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+                    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.composite_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.barbed_arrows"/>
-                    <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                    <equipment slot="Head" id="Item.roundkettle_over_imperial_leather"/>
-                    <equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather" />
+                    <equipment slot="Cape" id="Item.varangian_bra_scale" />
+                    <equipment slot="Body" id="Item.empire_legion_b" />
+                    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+                    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.composite_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.barbed_arrows"/>
-                    <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                    <equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather"/>
-                    <equipment slot="Body" id="Item.basic_imperial_leather_armor"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather" />
+                    <equipment slot="Cape" id="Item.varangian_bra_mail" />
+                    <equipment slot="Body" id="Item.empire_legion_a" />
+                    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+                    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
                 </EquipmentRoster>
                 <EquipmentRoster>
-                    <equipment slot="Item0" id="Item.composite_bow"/>
-                    <equipment slot="Item1" id="Item.barbed_arrows"/>
-                    <equipment slot="Item2" id="Item.barbed_arrows"/>
-                    <equipment slot="Item3" id="Item.empire_sword_3_t3"/>
-                    <equipment slot="Head" id="Item.ironlame_roundkettle_over_imperial_leather"/>
-                    <equipment slot="Body" id="Item.eastern_studded_leather"/>
-                    <equipment slot="Gloves" id="Item.padded_vambrace"/>
-                    <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+                    <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+                    <equipment slot="Item1" id="Item.wld_pilum" />
+                    <equipment slot="Item2" id="Item.wld_pilum" />
+                    <equipment slot="Item3" id="Item.northern_round_shield" />
+                    <equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather" />
+                    <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+                    <equipment slot="Body" id="Item.empire_legion_a" />
+                    <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+                    <equipment slot="Leg" id="Item.decorated_imperial_boots" />
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -2992,12 +2801,6 @@
                     <equipment slot="Horse" id="Item.empire_horse"/>
                     <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_cataphract"
@@ -3029,18 +2832,12 @@
                     <equipment slot="Item1" id="Item.empire_lance_3_t5" />
                     <equipment slot="Item3" id="Item.heavy_horsemans_kite_shield" />
                     <equipment slot="Head" id="Item.empire_guarded_lord_helmet" />
-                    <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+                    <equipment slot="Cape" id="Item.varangian_bra_royal" />
                     <equipment slot="Body" id="Item.empire_plate_vest_armor" />
                     <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
                     <equipment slot="Leg" id="Item.decorated_imperial_boots" />
                     <equipment slot="Horse" id="Item.t2_empire_horse" />
                     <equipment slot="HorseHarness" id="Item.half_scale_barding" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -3079,12 +2876,6 @@
                     <equipment slot="Horse" id="Item.t3_empire_horse"/>
                     <equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="imperial_elite_cataphract"
@@ -3119,12 +2910,6 @@
                     <equipment slot="Leg" id="Item.lamellar_plate_boots"/>
                     <equipment slot="Horse" id="Item.t3_empire_horse"/>
                     <equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -3176,12 +2961,6 @@
                     <equipment slot="Head" id="Item.roughhide_cap"/>
                     <equipment slot="Body" id="Item.steppe_armor"/>
                     <equipment slot="Leg" id="Item.eastern_leather_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -3241,12 +3020,6 @@
                     <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
                     <equipment slot="Horse" id="Item.khuzait_horse"/>
                     <equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -3322,12 +3095,6 @@
                     <equipment slot="Leg" id="Item.eastern_leather_boots"/>
                     <equipment slot="Horse" id="Item.khuzait_horse"/>
                     <equipment slot="HorseHarness" id="Item.steppe_harness"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -3438,12 +3205,6 @@
                     <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
                     <equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="khuzait_horse_archer"
@@ -3506,12 +3267,6 @@
                     <equipment slot="Leg" id="Item.eastern_leather_boots"/>
                     <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
                     <equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -3588,12 +3343,6 @@
                     <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
                     <equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="khuzait_footman"
@@ -3651,12 +3400,6 @@
                     <equipment slot="Head" id="Item.nomad_cap"/>
                     <equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
                     <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -3725,12 +3468,6 @@
                     <equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
                     <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="khuzait_marksman"
@@ -3794,12 +3531,6 @@
                     <equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
                     <equipment slot="Leg" id="Item.khuzait_curved_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         
@@ -3840,12 +3571,6 @@
                     <equipment slot="Horse" id="Item.khuzait_horse"/>
                     <equipment slot="HorseHarness" id="Item.steppe_harness"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="khuzait_kheshig"
@@ -3885,12 +3610,6 @@
                     <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
                     <equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="khuzait_bahadur"
@@ -3929,12 +3648,6 @@
                     <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
                     <equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="khuzait_darkhan"
@@ -3970,12 +3683,6 @@
                     <equipment slot="Leg" id="Item.eastern_leather_boots"/>
                     <equipment slot="Horse" id="Item.t2_khuzait_horse"/>
                     <equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -4029,12 +3736,6 @@
                     <equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
                     <equipment slot="Body" id="Item.tundra_tunic"/>
                     <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -4172,12 +3873,6 @@
                     <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
                     <equipment slot="Leg" id="Item.mail_chausses"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="nord_trained_warrior"
@@ -4247,12 +3942,6 @@
                     <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
                     <equipment slot="Leg" id="Item.strapped_mail_chausses"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="nord_veteran_warrior"
@@ -4288,12 +3977,6 @@
                     <equipment slot="Body" id="Item.sturgian_lamellar_base"/>
                     <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
                     <equipment slot="Leg" id="Item.plated_strip_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -4360,12 +4043,6 @@
                     <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
                     <equipment slot="Leg" id="Item.mail_chausses"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="nord_ulfhednarr"
@@ -4431,12 +4108,6 @@
                     <equipment slot="Gloves" id="Item.northern_brass_bracers" />
                     <equipment slot="Leg" id="Item.strapped_mail_chausses" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="nord_berserker"
@@ -4489,12 +4160,6 @@
                     <equipment slot="Body" id="Item.tacky_bandit" />
                     <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
                     <equipment slot="Leg" id="Item.plated_strip_boots" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -4559,12 +4224,6 @@
                     <equipment slot="Body" id="Item.northern_padded_gambeson"/>
                     <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="nord_archer"
@@ -4622,12 +4281,6 @@
                     <equipment slot="Body" id="Item.northern_lamellar_armor"/>
                     <equipment slot="Gloves" id="Item.highland_gloves"/>
                     <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -4739,12 +4392,6 @@
                     <equipment slot="Gloves" id="Item.northern_brass_bracers"/>
                     <equipment slot="Leg" id="Item.highland_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="nord_companion"
@@ -4784,12 +4431,6 @@
                     <equipment slot="Body" id="Item.sturgian_lamellar_base" />
                     <equipment slot="Gloves" id="Item.northern_brass_bracers" />
                     <equipment slot="Leg" id="Item.strapped_mail_chausses" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -4852,12 +4493,6 @@
                     <equipment slot="Body" id="Item.nord_king_armor_b"/>
                     <equipment slot="Gloves" id="Item.hybrid_armor_gloves_b" />
                     <equipment slot="Leg" id="Item.hybrid_armor_boots_b" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -4929,12 +4564,6 @@
                     <equipment slot="Gloves" id="Item.hybrid_armor_gloves_b" />
                     <equipment slot="Leg" id="Item.hybrid_armor_boots_b" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
     <!-- sturgia troops -->
@@ -4984,12 +4613,6 @@
                     <equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
                     <equipment slot="Body" id="Item.tundra_tunic"/>
                     <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -5121,12 +4744,6 @@
                     <equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
                     <equipment slot="Leg" id="Item.mail_chausses"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="sturgian_varyag"
@@ -5188,12 +4805,6 @@
                     <equipment slot="Body" id="Item.legionary_mail" />
                     <equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
                     <equipment slot="Leg" id="Item.plated_strip_boots" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -5265,12 +4876,6 @@
                     <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
                     <equipment slot="Leg" id="Item.decorated_imperial_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="sturgian_cavalry"
@@ -5293,8 +4898,6 @@
                 <skill id="Crossbow" value="15"/>
                 <skill id="Throwing" value="50"/>
             </skills>
-            <upgrade_targets>
-            </upgrade_targets>
             <Equipments>
                 <EquipmentRoster>
                     <equipment slot="Item0" id="Item.sturgia_sword_5_t4" />
@@ -5321,12 +4924,6 @@
                     <equipment slot="Leg" id="Item.leather_cavalier_boots" />
                     <equipment slot="Horse" id="Item.sturgia_horse" />
                     <equipment slot="HorseHarness" id="Item.celtic_frost" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -5388,12 +4985,6 @@
                     <equipment slot="Body" id="Item.northern_padded_gambeson"/>
                     <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="sturgian_archer"
@@ -5448,12 +5039,6 @@
                     <equipment slot="Body" id="Item.northern_lamellar_armor"/>
                     <equipment slot="Gloves" id="Item.highland_gloves"/>
                     <equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -5628,12 +5213,6 @@
                 <equipment slot="Body" id="Item.nordic_hauberk" />
                 <equipment slot="Leg" id="Item.strapped_shoes" />
             </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="sturgian_grid"
@@ -5685,12 +5264,6 @@
                     <equipment slot="Horse" id="Item.sturgia_horse" />
                     <equipment slot="HorseHarness" id="Item.celtic_frost" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="sturgian_druzhinnik"
@@ -5741,12 +5314,6 @@
                     <equipment slot="Leg" id="Item.plated_strip_boots" />
                     <equipment slot="Horse" id="Item.t2_sturgia_horse" />
                     <equipment slot="HorseHarness" id="Item.halfchain_barding" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -5822,12 +5389,6 @@
                     <equipment slot="Horse" id="Item.t2_sturgia_horse" />
                     <equipment slot="HorseHarness" id="Item.chain_horse_harness" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
     <!-- vlandia troops -->
@@ -5883,12 +5444,6 @@
                     <equipment slot="Body" id="Item.sackcloth_tunic"/>
                     <equipment slot="Leg" id="Item.empire_horseman_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="vlandian_levy_infantry"
@@ -5942,12 +5497,6 @@
                     <equipment slot="Item1" id="Item.fine_pike_t4"/>
                     <equipment slot="Head" id="Item.nasal_cervelliere_over_laced_coif"/>
                     <equipment slot="Body" id="Item.leather_tunic"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
                     <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
@@ -6006,12 +5555,6 @@
                     <equipment slot="Item3" id="Item.western_kite_shield"/>
                     <equipment slot="Head" id="Item.segmented_cervelliere_over_mail"/>
                     <equipment slot="Body" id="Item.imperial_padded_cloth"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
                     <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
@@ -6073,12 +5616,6 @@
                     <equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
                     <equipment slot="Body" id="Item.wld_tabbard_over_mail_2"/>
                     <equipment slot="Gloves" id="Item.mail_mitten"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
                     <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
@@ -6146,12 +5683,6 @@
                     <equipment slot="Leg" id="Item.mail_chausses"/>
                     <equipment slot="Horse" id="Item.vlandia_horse_tournament"/>
                     <equipment slot="HorseHarness" id="Item.northern_light_harness"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -6226,12 +5757,6 @@
                     <equipment slot="Horse" id="Item.vlandia_horse_tournament"/>
                     <equipment slot="HorseHarness" id="Item.northern_light_harness"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="vlandian_cavalier"
@@ -6301,12 +5826,6 @@
                     <equipment slot="Horse" id="Item.vlandia_horse_tournament"/>
                     <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="vlandian_levy_crossbowman"
@@ -6331,6 +5850,7 @@
             </skills>
             <upgrade_targets>
                 <upgrade_target id="NPCCharacter.vlandian_crossbowman"/>
+                <upgrade_target id="NPCCharacter.vlandian_moussaillon"/>
             </upgrade_targets>
             <Equipments>
                 <EquipmentRoster>
@@ -6372,12 +5892,6 @@
                     <equipment slot="Body" id="Item.long_hemp_tunic"/>
                     <equipment slot="Gloves" id="Item.leather_gloves"/>
                     <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -6430,12 +5944,6 @@
                     <equipment slot="Item3" id="Item.reinforced_kite_shield"/>
                     <equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
                     <equipment slot="Body" id="Item.imperial_padded_cloth"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
                     <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
@@ -6502,12 +6010,6 @@
                     <equipment slot="Body" id="Item.mail_shirt"/>
                     <equipment slot="Leg" id="Item.leather_cavalier_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="vlandian_arbaletrier"
@@ -6564,11 +6066,137 @@
                     <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
                     <equipment slot="Leg" id="Item.plated_strip_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vlandian_moussaillon"
+            default_group="Ranged"
+            level="16"
+            name="{=YATO_VMou}Vlandian Moussaillon"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vlandia">
+            <face>
+                <face_key_template value="BodyProperty.fighter_vlandia"/>
+            </face>
+            <Traits>
+                <Trait id="NavalSoldier" value="1" />
+            </Traits>
+            <skills >
+                <skill id="Athletics" value="60"/>
+                <skill id="Riding" value="20"/>
+                <skill id="OneHanded" value="50"/>
+                <skill id="TwoHanded" value="30"/>
+                <skill id="Polearm" value="20"/>
+                <skill id="Bow" value="90"/>
+                <skill id="Crossbow" value="40"/>
+                <skill id="Throwing" value="10"/>
+            </skills>
+            <upgrade_targets>
+                <upgrade_target id="NPCCharacter.vlandian_matelot"/>
+            </upgrade_targets>
+            <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.woodland_yew_bow" />
+                    <equipment slot="Item1" id="Item.range_arrows" />
+                    <equipment slot="Item2" id="Item.range_arrows" />
+                    <equipment slot="Item3" id="Item.khuzait_sword_1_t2" />
+                    <equipment slot="Head" id="Item.peaked_helmet_over_laced_coif" />
+                    <equipment slot="Cape" id="Item.nord_casual_cloak" />
+                    <equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.sturgia_boots_a" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.woodland_yew_bow" />
+                    <equipment slot="Item1" id="Item.vlandic_arrows" />
+                    <equipment slot="Item2" id="Item.vlandic_arrows" />
+                    <equipment slot="Item3" id="Item.khuzait_sword_1_t2" />
+                    <equipment slot="Head" id="Item.kettle_helmet_over_laced_coif" />
+                    <equipment slot="Cape" id="Item.nord_casual_cloak" />
+                    <equipment slot="Body" id="Item.imperial_padded_cloth" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.sturgia_boots_a" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.woodland_yew_bow" />
+                    <equipment slot="Item1" id="Item.vlandic_arrows" />
+                    <equipment slot="Item2" id="Item.vlandic_arrows" />
+                    <equipment slot="Item3" id="Item.khuzait_sword_1_t2" />
+                    <equipment slot="Head" id="Item.kettle_hat_over_padded_cloth" />
+                    <equipment slot="Cape" id="Item.empire_cape_a" />
+                    <equipment slot="Body" id="Item.imperial_padded_cloth" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.sturgia_boots_a" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.woodland_yew_bow" />
+                    <equipment slot="Item1" id="Item.vlandic_arrows" />
+                    <equipment slot="Item2" id="Item.vlandic_arrows" />
+                    <equipment slot="Item3" id="Item.khuzait_sword_1_t2" />
+                    <equipment slot="Head" id="Item.kettle_hat_over_padded_cloth" />
+                    <equipment slot="Cape" id="Item.hood" />
+                    <equipment slot="Body" id="Item.padded_leather_shirt" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.sturgia_boots_a" />
+                </EquipmentRoster>
+            </Equipments>
+        </NPCCharacter>
+        <NPCCharacter id="vlandian_matelot"
+            default_group="Ranged"
+            level="21"
+            name="{=YATO_VMat}Vlandian Matelot"
+            is_basic_troop="true"
+            occupation="Soldier"
+            culture="Culture.vlandia">
+            <face>
+                <face_key_template value="BodyProperty.fighter_vlandia"/>
+            </face>
+            <Traits>
+                <Trait id="NavalSoldier" value="1" />
+            </Traits>
+            <skills >
+                <skill id="Athletics" value="80"/>
+                <skill id="Riding" value="30"/>
+                <skill id="OneHanded" value="90"/>
+                <skill id="TwoHanded" value="30"/>
+                <skill id="Polearm" value="50"/>
+                <skill id="Bow" value="120"/>
+                <skill id="Crossbow" value="40"/>
+                <skill id="Throwing" value="10"/>
+            </skills>
+            <Equipments>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.woodland_longbow" />
+                    <equipment slot="Item1" id="Item.vlandic_arrows" />
+                    <equipment slot="Item2" id="Item.vlandic_arrows" />
+                    <equipment slot="Item3" id="Item.star_falchion_sword_t3" />
+                    <equipment slot="Head" id="Item.kettle_hat_over_padded_cloth" />
+                    <equipment slot="Cape" id="Item.hood" />
+                    <equipment slot="Body" id="Item.buckled_wildsman_armor" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.sturgia_boots_a" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.woodland_longbow" />
+                    <equipment slot="Item1" id="Item.vlandic_arrows" />
+                    <equipment slot="Item2" id="Item.vlandic_arrows" />
+                    <equipment slot="Item3" id="Item.star_falchion_sword_t3" />
+                    <equipment slot="Head" id="Item.peaked_helmet_over_mail_coif" />
+                    <equipment slot="Cape" id="Item.nord_casual_cloak" />
+                    <equipment slot="Body" id="Item.buckled_wildsman_armor" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.sturgia_boots_a" />
+                </EquipmentRoster>
+                <EquipmentRoster>
+                    <equipment slot="Item0" id="Item.woodland_longbow" />
+                    <equipment slot="Item1" id="Item.vlandic_arrows" />
+                    <equipment slot="Item2" id="Item.vlandic_arrows" />
+                    <equipment slot="Item3" id="Item.star_falchion_sword_t3" />
+                    <equipment slot="Head" id="Item.kettle_helmet_over_mail" />
+                    <equipment slot="Cape" id="Item.empire_cape_a" />
+                    <equipment slot="Body" id="Item.buckled_wildsman_armor" />
+                    <equipment slot="Gloves" id="Item.padded_vambrace" />
+                    <equipment slot="Leg" id="Item.sturgia_boots_a" />
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -6619,12 +6247,6 @@
                     <equipment slot="Horse" id="Item.t2_vlandia_horse"/>
                     <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="vlandian_auxilliary"
@@ -6662,12 +6284,6 @@
                     <equipment slot="Leg" id="Item.mail_cavalier_boots"/>
                     <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
                     <equipment slot="HorseHarness" id="Item.halfchain_barding"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -6708,12 +6324,6 @@
                     <equipment slot="Horse" id="Item.noble_horse_western" />
                     <equipment slot="HorseHarness" id="Item.chain_horse_harness" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="vlandian_chevalier_banneret"
@@ -6750,12 +6360,6 @@
                 <equipment slot="Horse" id="Item.noble_horse_western" />
                 <equipment slot="HorseHarness" id="Item.chain_barding" />
             </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
 
@@ -6833,12 +6437,6 @@
                     <equipment slot="Body" id="Item.layered_leather_tunic" />
                     <equipment slot="Leg" id="Item.strapped_shoes" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="mercenary_pikeman"
@@ -6897,12 +6495,6 @@
                     <equipment slot="Head" id="Item.roundkettle_over_imperial_padding" />
                     <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
                     <equipment slot="Leg" id="Item.strapped_shoes" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -6966,12 +6558,6 @@
                     <equipment slot="Gloves" id="Item.lordly_padded_mitten" />
                     <equipment slot="Leg" id="Item.wrapped_leather_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="mercenary_swordman"
@@ -7030,12 +6616,6 @@
                     <equipment slot="Body" id="Item.nordic_sloven_over_mail" />
                     <equipment slot="Gloves" id="Item.mail_mitten" />
                     <equipment slot="Leg" id="Item.mail_chausses" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -7118,12 +6698,6 @@
                     <equipment slot="Horse" id="Item.charger" />
                     <equipment slot="HorseHarness" id="Item.northern_noble_harness" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="mercenary_cavalry"
@@ -7190,12 +6764,6 @@
                     <equipment slot="Leg" id="Item.mail_cavalier_boots" />
                     <equipment slot="Horse" id="Item.charger" />
                     <equipment slot="HorseHarness" id="Item.halfchain_barding" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -7277,12 +6845,6 @@
                     <equipment slot="Body" id="Item.desert_padded_cloth" />
                     <equipment slot="Leg" id="Item.fine_town_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="mercenary_sharpshooter"
@@ -7345,12 +6907,6 @@
                     <equipment slot="Body" id="Item.eastern_studded_leather" />
                     <equipment slot="Leg" id="Item.fine_town_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="mercenary_marksman"
@@ -7409,12 +6965,6 @@
                     <equipment slot="Head" id="Item.leatherlame_roundkettle_over_imperial_leather" />
                     <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
                     <equipment slot="Leg" id="Item.fine_town_boots" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -7481,12 +7031,6 @@
                     <equipment slot="Body" id="Item.eastern_studded_leather" />
                     <equipment slot="Leg" id="Item.fine_town_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="mercenary_veteran_mariner"
@@ -7549,12 +7093,6 @@
                     <equipment slot="Body" id="Item.battanian_chainmail_armor_a" />
                     <equipment slot="Leg" id="Item.fine_town_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
     <!-- sword sisters -->
@@ -7609,12 +7147,6 @@
                     <equipment slot="Item3" id="Item.curved_round_shield"/>
                     <equipment slot="Body" id="Item.leather_scale_armor"/>
                     <equipment slot="Leg" id="Item.empire_horseman_boots"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -7682,12 +7214,6 @@
                     <equipment slot="Body" id="Item.eastern_studded_leather"/>
                     <equipment slot="Leg" id="Item.empire_horseman_boots"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="sword_defender"
@@ -7727,12 +7253,6 @@
                     <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
                     <equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="sword_sister"
@@ -7769,12 +7289,6 @@
                     <equipment slot="Leg" id="Item.mail_chausses"/>
                     <equipment slot="Horse" id="Item.t3_vlandia_horse"/>
                     <equipment slot="HorseHarness" id="Item.chain_barding"/>
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
@@ -7845,12 +7359,6 @@
                     <equipment slot="Body" id="Item.padded_short_coat" />
                     <equipment slot="Leg" id="Item.leather_cavalier_boots" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="slave_driver"
@@ -7917,12 +7425,6 @@
                     <equipment slot="Horse" id="Item.hunter" />
                     <equipment slot="HorseHarness" id="Item.light_harness" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="slave_crusher"
@@ -7980,12 +7482,6 @@
                     <equipment slot="Horse" id="Item.charger" />
                     <equipment slot="HorseHarness" id="Item.halfchain_barding" />
                 </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
-                </EquipmentRoster>
             </Equipments>
         </NPCCharacter>
         <NPCCharacter id="slave_master"
@@ -8041,12 +7537,6 @@
                     <equipment slot="Leg" id="Item.mail_chausses" />
                     <equipment slot="Horse" id="Item.charger" />
                     <equipment slot="HorseHarness" id="Item.halfchain_barding" />
-                </EquipmentRoster>
-                <EquipmentRoster civilian="true">
-                    <equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-                    <equipment slot="Item2" id="Item.throwing_stone"/>
-                    <equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-                    <equipment slot="Leg" id="Item.wrapped_shoes"/>
                 </EquipmentRoster>
             </Equipments>
         </NPCCharacter>

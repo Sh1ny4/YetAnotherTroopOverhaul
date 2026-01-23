@@ -1,65 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-       <CraftedItem  id="wld_lance_cb"
-              name="{=wipo_w_bkl}Bannered Knight Lance"
-              crafting_template="TwoHandedPolearm"
-              culture="Culture.vlandia"
-              modifier_group="polearm">
-              <Pieces>
-                     <Piece id="spear_blade_5" Type="Blade" scale_factor="100" />
-                     <Piece id="spear_banner_10" Type="Guard" scale_factor="100" />
-                     <Piece id="spear_handle_19" Type="Handle" scale_factor="140" />
-                     <Piece id="spear_pommel_4" Type="Pommel" scale_factor="100" />
-              </Pieces>
-       </CraftedItem>
-       <CraftedItem  id="wld_2h_hammer"
-              name="{=wipo_w_nhm}Northern Heavy Mace"
-              crafting_template="TwoHandedMace"
-              culture="Culture.sturgia"
-              modifier_group="mace">
-              <Pieces>
-                     <Piece id="wipo_warhammer_head" Type="Blade" scale_factor="100"/>
-                     <Piece id="axe_craft_1_handle" Type="Handle" scale_factor="90"/>
-                     <Piece id="spear_pommel_5" Type="Pommel" scale_factor="100"/>
-              </Pieces>
-       </CraftedItem>
-       <Item  id="wld_siege_crossbow"
-              name="{=wipo_siege_crossbow}Siege Crossbow"
-              body_name="bo_cross_bow_heavy"
-              mesh="crossbow_f"
-              culture="Culture.vlandia"
-              weight="2.0"
-              difficulty="100"
-              Type="Crossbow"
-              AmmoOffset="0.0, 0.02131, 0.22975"
-              item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
-              holster_position_shift="0.02,0,-0.4">
-              <ItemComponent>
-                     <Weapon weapon_class="Crossbow"
-                            ammo_class="Bolt"
-                            ammo_limit="1"
-                            thrust_speed="105"
-                            speed_rating="63"
-                            missile_speed="105"
-                            weapon_length="90"
-                            accuracy="100"
-                            thrust_damage="110"
-                            thrust_damage_type="Pierce"
-                            item_usage="crossbow"
-                            reload_phase_count="2"
-                            physics_material="wood_weapon"
-                            center_of_mass="0,0,0.4"
-                            modifier_group="crossbow">
-                            <WeaponFlags RangedWeapon="true"
-                                   HasString="true"
-                                   CantReloadOnHorseback="true"
-                                   CanPenetrateShield="true"
-                                   NotUsableWithOneHand="true"
-                                   TwoHandIdleOnMount="true" />
-                            </Weapon>
-                     </ItemComponent>
-              <Flags/>
-       </Item>
+    <CraftedItem  id="wld_lance_cb"
+            name="{=wipo_w_bkl}Bannered Knight Lance"
+            crafting_template="TwoHandedPolearm"
+            culture="Culture.vlandia"
+            modifier_group="polearm">
+            <Pieces>
+                    <Piece id="spear_blade_5" Type="Blade" scale_factor="100" />
+                    <Piece id="spear_banner_10" Type="Guard" scale_factor="100" />
+                    <Piece id="spear_handle_19" Type="Handle" scale_factor="140" />
+                    <Piece id="spear_pommel_4" Type="Pommel" scale_factor="100" />
+            </Pieces>
+    </CraftedItem>
+    <CraftedItem  id="wld_2h_hammer"
+            name="{=wipo_w_nhm}Northern Heavy Mace"
+            crafting_template="TwoHandedMace"
+            culture="Culture.sturgia"
+            modifier_group="mace">
+            <Pieces>
+                    <Piece id="wipo_warhammer_head" Type="Blade" scale_factor="100"/>
+                    <Piece id="axe_craft_1_handle" Type="Handle" scale_factor="90"/>
+                    <Piece id="spear_pommel_5" Type="Pommel" scale_factor="100"/>
+            </Pieces>
+    </CraftedItem>
+	<CraftedItem id="wld_pilum"
+        name="{=rkqaCud5}Pilum"
+        crafting_template="TwoHandedPolearm"
+        culture="Culture.empire"
+        modifier_group="polearm">
+        <Pieces>
+            <Piece id="spear_blade_38" Type="Blade" scale_factor="160"/>
+            <Piece id="default_polearm_guard" Type="Guard"/>
+            <Piece id="spear_handle_19_2" Type="Handle" scale_factor="70"/>
+            <Piece id="default_polearm_pommel" Type="Pommel"/>
+        </Pieces>
+    </CraftedItem>
+    <Item  id="wld_siege_crossbow"
+            name="{=wipo_siege_crossbow}Siege Crossbow"
+            body_name="bo_cross_bow_heavy"
+            mesh="crossbow_f"
+            culture="Culture.vlandia"
+            weight="2.0"
+            difficulty="100"
+            Type="Crossbow"
+            AmmoOffset="0.0, 0.02131, 0.22975"
+            item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+            holster_position_shift="0.02,0,-0.4">
+            <ItemComponent>
+                    <Weapon weapon_class="Crossbow"
+                        ammo_class="Bolt"
+                        ammo_limit="1"
+                        thrust_speed="105"
+                        speed_rating="63"
+                        missile_speed="105"
+                        weapon_length="90"
+                        accuracy="100"
+                        thrust_damage="110"
+                        thrust_damage_type="Pierce"
+                        item_usage="crossbow"
+                        reload_phase_count="2"
+                        physics_material="wood_weapon"
+                        center_of_mass="0,0,0.4"
+                        modifier_group="crossbow">
+                        <WeaponFlags RangedWeapon="true"
+                                HasString="true"
+                                CantReloadOnHorseback="true"
+                                CanPenetrateShield="true"
+                                NotUsableWithOneHand="true"
+                                TwoHandIdleOnMount="true" />
+                        </Weapon>
+                    </ItemComponent>
+            <Flags/>
+    </Item>
 	<Item  id="wld_flail"
 		name="{=77GPT2B6}War Flail"
 		body_name="bo_mace_a"
