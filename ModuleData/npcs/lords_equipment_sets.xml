@@ -123,9 +123,7 @@
             <Equipment slot="Horse" id="Item.noble_horse_western" />
             <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
         </EquipmentSet>
-        <Flags IsNobleTemplate="true"           
-                IsMediumTemplate="true"
-                IsCombatantTemplate="true" />
+		<Flags IsLordTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_heavy"
         culture="Culture.vlandia">
@@ -225,9 +223,7 @@
             <Equipment slot="Horse" id="Item.noble_horse_western" />
             <Equipment slot="HorseHarness" id="Item.chain_barding" />
         </EquipmentSet>
-        <Flags IsCombatantTemplate="true"
-                IsNobleTemplate="true"
-                IsHeavyTemplate="true"  />
+		<Flags IsLordTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_flamboyant"
         culture="Culture.vlandia">
@@ -327,9 +323,7 @@
             <Equipment slot="Horse" id="Item.noble_horse_western" />
             <Equipment slot="HorseHarness" id="Item.wld_coloured_barding1" />
         </EquipmentSet>
-        <Flags IsCombatantTemplate="true"
-                IsNobleTemplate="true"
-                IsFlamboyantTemplate="true" />
+		<Flags IsLordTemplate="true" />
     </EquipmentRoster>
     <EquipmentRoster id="vla_bat_template_lady"
         culture="Culture.vlandia">
@@ -369,11 +363,10 @@
             <Equipment slot="Horse" id="Item.noble_horse_western" />
             <Equipment slot="HorseHarness" id="Item.chain_horse_harness" />
         </EquipmentSet>
-        <Flags IsFemaleTemplate="true"
-                IsNobleTemplate="true"
-                IsCombatantTemplate="true" />
-        </EquipmentRoster>
-        <EquipmentRoster id="vla_king_template_bat_m"
+		<Flags IsFemaleTemplate="true"
+			IsLordTemplate="true" />
+    </EquipmentRoster>
+    <EquipmentRoster id="vla_king_template_bat_m"
         culture="Culture.vlandia">
         <EquipmentSet civilian="false">
             <Equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
@@ -387,10 +380,8 @@
             <Equipment slot="Horse" id="Item.noble_horse_western" />
             <Equipment slot="HorseHarness" id="Item.chain_barding" />   
         </EquipmentSet>
-        <Flags IsCombatantTemplate="true"
-            IsNobleTemplate="true"
-            IsCivilianTemplate="false" />
     </EquipmentRoster>
+		<Flags IsKingdomRulerTemplate="true" />
     <EquipmentRoster id="vla_king_template_bat_f"
         culture="Culture.vlandia" >
         <EquipmentSet civilian="false">
@@ -405,9 +396,7 @@
             <Equipment slot="Horse" id="Item.noble_horse_western" />
             <Equipment slot="HorseHarness" id="Item.chain_barding" />   
         </EquipmentSet>
-        <Flags IsCombatantTemplate="true"
-                    IsFemaleTemplate="true"
-                IsNobleTemplate="true"
-                IsCivilianTemplate="false" />
+		<Flags IsFemaleTemplate="true"
+			IsKingdomRulerTemplate="true" />
     </EquipmentRoster>
 </EquipmentRosters>
